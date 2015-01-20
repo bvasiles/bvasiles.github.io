@@ -1,0 +1,1117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JavaFX Script</title>
+<style type="text/css">
+<!--
+@import url("style.css");
+-->
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28938909-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<div align=center>
+<table id="arm-data">
+    <thead>
+    	<tr>
+        	<th scope="col">Index</th>
+            <th scope="col">Left</th>
+			<th scope="col">Right</th>
+			<th scope="col">Support</th>
+			<th scope="col">Confidence</th>
+			<th scope="col">Lift</th>
+			<th scope="col">nBoth</th>
+			<th scope="col">nLeft-nBoth</th>
+			<th scope="col">nRight-nBoth</th>
+			<th scope="col">nExamples-nLeft-nRight+nBoth</th>
+			<th scope="col">p-value<sup><a href="#1">1</a></sup> Fisher's test</th>
+			<th scope="col">Significant at 0.05</th>
+        </tr>
+    </thead>
+	<tfoot>
+		<tr>
+			<td colspan="12"><sup><a name="1">1</a></sup> First 12 digits</td>
+		</tr>
+	</tfoot>
+    <tbody>
+	     <tr>
+        	<td>761</td>
+            <td>JavaFX Script</td>
+			<td>ABAP</td>
+			<td>0.00000492</td>
+			<td>0.00623000</td>
+			<td>23.652</td>
+			<td>2</td>
+			<td>319</td>
+			<td>105</td>
+			<td>405763</td>
+			<td>0.003342391495</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15980</td>
+            <td>JavaFX Script</td>
+			<td>ActionScript</td>
+			<td>0.00005416</td>
+			<td>0.06854000</td>
+			<td>10.419</td>
+			<td>22</td>
+			<td>299</td>
+			<td>2650</td>
+			<td>403218</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>7596</td>
+            <td>JavaFX Script</td>
+			<td>Alice</td>
+			<td>0.00000492</td>
+			<td>0.00623000</td>
+			<td>46.866</td>
+			<td>2</td>
+			<td>319</td>
+			<td>52</td>
+			<td>405816</td>
+			<td>0.000867025011</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15950</td>
+            <td>JavaFX Script</td>
+			<td>Ant</td>
+			<td>0.00008124</td>
+			<td>0.10280000</td>
+			<td>17.121</td>
+			<td>33</td>
+			<td>288</td>
+			<td>2406</td>
+			<td>403462</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>11485</td>
+            <td>JavaFX Script</td>
+			<td>AppleScript</td>
+			<td>0.00000492</td>
+			<td>0.00623000</td>
+			<td>3.575</td>
+			<td>2</td>
+			<td>319</td>
+			<td>706</td>
+			<td>405162</td>
+			<td>0.108579107952</td>
+			<td></td>
+        </tr>
+		<tr>
+        	<td>6083</td>
+            <td>JavaFX Script</td>
+			<td>AspectJ</td>
+			<td>0.00000739</td>
+			<td>0.00935000</td>
+			<td>15.185</td>
+			<td>3</td>
+			<td>318</td>
+			<td>247</td>
+			<td>405621</td>
+			<td>0.001088908665</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>13568</td>
+            <td>JavaFX Script</td>
+			<td>Assembly</td>
+			<td>0.00004185</td>
+			<td>0.05296000</td>
+			<td>6.964</td>
+			<td>17</td>
+			<td>304</td>
+			<td>3072</td>
+			<td>402796</td>
+			<td>0.000000000773</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15989</td>
+            <td>JavaFX Script</td>
+			<td>Awk</td>
+			<td>0.00001231</td>
+			<td>0.01558000</td>
+			<td>5.831</td>
+			<td>5</td>
+			<td>316</td>
+			<td>1080</td>
+			<td>404788</td>
+			<td>0.001853254195</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>14948</td>
+            <td>JavaFX Script</td>
+			<td>Bash</td>
+			<td>0.00009355</td>
+			<td>0.11838000</td>
+			<td>7.694</td>
+			<td>38</td>
+			<td>283</td>
+			<td>6212</td>
+			<td>399656</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15893</td>
+            <td>JavaFX Script</td>
+			<td>Basic</td>
+			<td>0.00001477</td>
+			<td>0.01869000</td>
+			<td>23.951</td>
+			<td>6</td>
+			<td>315</td>
+			<td>311</td>
+			<td>405557</td>
+			<td>0.000000254082</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15926</td>
+            <td>JavaFX Script</td>
+			<td>Windows batch</td>
+			<td>0.00003447</td>
+			<td>0.04361000</td>
+			<td>8.525</td>
+			<td>14</td>
+			<td>307</td>
+			<td>2064</td>
+			<td>403804</td>
+			<td>0.000000001994</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15992</td>
+            <td>JavaFX Script</td>
+			<td>BeanShell</td>
+			<td>0.00000739</td>
+			<td>0.00935000</td>
+			<td>74.434</td>
+			<td>3</td>
+			<td>318</td>
+			<td>48</td>
+			<td>405820</td>
+			<td>0.000009899571</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>8446</td>
+            <td>JavaFX Script</td>
+			<td>Bison</td>
+			<td>0.00000739</td>
+			<td>0.00935000</td>
+			<td>15.307</td>
+			<td>3</td>
+			<td>318</td>
+			<td>245</td>
+			<td>405623</td>
+			<td>0.001064117469</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15853</td>
+            <td>JavaFX Script</td>
+			<td>Boo</td>
+			<td>0.00000739</td>
+			<td>0.00935000</td>
+			<td>30.369</td>
+			<td>3</td>
+			<td>318</td>
+			<td>122</td>
+			<td>405746</td>
+			<td>0.000144644117</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15182</td>
+            <td>JavaFX Script</td>
+			<td>C</td>
+			<td>0.00016741</td>
+			<td>0.21184000</td>
+			<td>3.952</td>
+			<td>68</td>
+			<td>253</td>
+			<td>21706</td>
+			<td>384162</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15907</td>
+            <td>JavaFX Script</td>
+			<td>C#</td>
+			<td>0.00025604</td>
+			<td>0.32399000</td>
+			<td>2.297</td>
+			<td>104</td>
+			<td>217</td>
+			<td>57193</td>
+			<td>348675</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>7867</td>
+            <td>JavaFX Script</td>
+			<td>C++</td>
+			<td>0.00020434</td>
+			<td>0.25857000</td>
+			<td>3.230</td>
+			<td>83</td>
+			<td>238</td>
+			<td>32435</td>
+			<td>373433</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15856</td>
+            <td>JavaFX Script</td>
+			<td>Clojure</td>
+			<td>0.00004678</td>
+			<td>0.05919000</td>
+			<td>21.640</td>
+			<td>19</td>
+			<td>302</td>
+			<td>1092</td>
+			<td>404776</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15960</td>
+            <td>JavaFX Script</td>
+			<td>COBOL</td>
+			<td>0.00000985</td>
+			<td>0.01246000</td>
+			<td>17.698</td>
+			<td>4</td>
+			<td>317</td>
+			<td>282</td>
+			<td>405586</td>
+			<td>0.000087668665</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15865</td>
+            <td>JavaFX Script</td>
+			<td>Cocoa</td>
+			<td>0.00002954</td>
+			<td>0.03738000</td>
+			<td>2.822</td>
+			<td>12</td>
+			<td>309</td>
+			<td>5368</td>
+			<td>400500</td>
+			<td>0.001383977882</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15433</td>
+            <td>JavaFX Script</td>
+			<td>ColdFusion</td>
+			<td>0.00001723</td>
+			<td>0.02181000</td>
+			<td>7.075</td>
+			<td>7</td>
+			<td>314</td>
+			<td>1245</td>
+			<td>404623</td>
+			<td>0.000073379918</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15889</td>
+            <td>JavaFX Script</td>
+			<td>Common Lisp</td>
+			<td>0.00001477</td>
+			<td>0.01869000</td>
+			<td>13.880</td>
+			<td>6</td>
+			<td>315</td>
+			<td>541</td>
+			<td>405327</td>
+			<td>0.000005877399</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15983</td>
+            <td>JavaFX Script</td>
+			<td>CSS</td>
+			<td>0.00017233</td>
+			<td>0.21807000</td>
+			<td>3.504</td>
+			<td>70</td>
+			<td>251</td>
+			<td>25208</td>
+			<td>380660</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>6835</td>
+            <td>JavaFX Script</td>
+			<td>D</td>
+			<td>0.00000739</td>
+			<td>0.00935000</td>
+			<td>11.938</td>
+			<td>3</td>
+			<td>318</td>
+			<td>315</td>
+			<td>405553</td>
+			<td>0.002159798752</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>16012</td>
+            <td>JavaFX Script</td>
+			<td>Delphi/Object Pascal</td>
+			<td>0.00004431</td>
+			<td>0.05607000</td>
+			<td>6.558</td>
+			<td>18</td>
+			<td>303</td>
+			<td>3455</td>
+			<td>402413</td>
+			<td>0.000000000624</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15929</td>
+            <td>JavaFX Script</td>
+			<td>DTD</td>
+			<td>0.00000985</td>
+			<td>0.01246000</td>
+			<td>15.292</td>
+			<td>4</td>
+			<td>317</td>
+			<td>327</td>
+			<td>405541</td>
+			<td>0.000153400217</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>9805</td>
+            <td>JavaFX Script</td>
+			<td>Emacs Lisp</td>
+			<td>0.00000492</td>
+			<td>0.00623000</td>
+			<td>4.495</td>
+			<td>2</td>
+			<td>319</td>
+			<td>561</td>
+			<td>405307</td>
+			<td>0.073814467917</td>
+			<td></td>
+        </tr>
+		<tr>
+        	<td>3965</td>
+            <td>JavaFX Script</td>
+			<td>Erlang</td>
+			<td>0.00002954</td>
+			<td>0.03738000</td>
+			<td>14.352</td>
+			<td>12</td>
+			<td>309</td>
+			<td>1046</td>
+			<td>404822</td>
+			<td>0.000000000089</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15957</td>
+            <td>JavaFX Script</td>
+			<td>F#</td>
+			<td>0.00002216</td>
+			<td>0.02804000</td>
+			<td>8.849</td>
+			<td>9</td>
+			<td>312</td>
+			<td>1278</td>
+			<td>404590</td>
+			<td>0.000001154979</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>2761</td>
+            <td>JavaFX Script</td>
+			<td>Fortran</td>
+			<td>0.00000492</td>
+			<td>0.00623000</td>
+			<td>4.593</td>
+			<td>2</td>
+			<td>319</td>
+			<td>549</td>
+			<td>405319</td>
+			<td>0.071128074009</td>
+			<td></td>
+        </tr>
+		<tr>
+        	<td>1589</td>
+            <td>JavaFX Script</td>
+			<td>Go</td>
+			<td>0.00000739</td>
+			<td>0.00935000</td>
+			<td>9.964</td>
+			<td>3</td>
+			<td>318</td>
+			<td>378</td>
+			<td>405490</td>
+			<td>0.003586986917</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>6540</td>
+            <td>JavaFX Script</td>
+			<td>Grammar</td>
+			<td>0.00001477</td>
+			<td>0.01869000</td>
+			<td>14.858</td>
+			<td>6</td>
+			<td>315</td>
+			<td>505</td>
+			<td>405363</td>
+			<td>0.000003992745</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15918</td>
+            <td>JavaFX Script</td>
+			<td>Groovy</td>
+			<td>0.00007140</td>
+			<td>0.09034000</td>
+			<td>25.238</td>
+			<td>29</td>
+			<td>292</td>
+			<td>1425</td>
+			<td>404443</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15869</td>
+            <td>JavaFX Script</td>
+			<td>Haskell</td>
+			<td>0.00001970</td>
+			<td>0.02492000</td>
+			<td>4.635</td>
+			<td>8</td>
+			<td>313</td>
+			<td>2176</td>
+			<td>403692</td>
+			<td>0.000402247296</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15976</td>
+            <td>JavaFX Script</td>
+			<td>HTML</td>
+			<td>0.00024127</td>
+			<td>0.30530000</td>
+			<td>3.706</td>
+			<td>98</td>
+			<td>223</td>
+			<td>33360</td>
+			<td>372508</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15849</td>
+            <td>JavaFX Script</td>
+			<td>IDL</td>
+			<td>0.00000492</td>
+			<td>0.00623000</td>
+			<td>22.396</td>
+			<td>2</td>
+			<td>319</td>
+			<td>111</td>
+			<td>405757</td>
+			<td>0.003717995687</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>1030</td>
+            <td>JavaFX Script</td>
+			<td>Informix-4GL</td>
+			<td>0.00000492</td>
+			<td>0.00623000</td>
+			<td>11.349</td>
+			<td>2</td>
+			<td>319</td>
+			<td>221</td>
+			<td>405647</td>
+			<td>0.013737817358</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15874</td>
+            <td>JavaFX Script</td>
+			<td>Java</td>
+			<td>0.00058347</td>
+			<td>0.73832000</td>
+			<td>5.389</td>
+			<td>237</td>
+			<td>84</td>
+			<td>55410</td>
+			<td>350458</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>14196</td>
+            <td>JavaFX Script</td>
+			<td>JavaScript</td>
+			<td>0.00031266</td>
+			<td>0.39564000</td>
+			<td>2.981</td>
+			<td>127</td>
+			<td>194</td>
+			<td>53782</td>
+			<td>352086</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15862</td>
+            <td>JavaFX Script</td>
+			<td>JRuby</td>
+			<td>0.00002462</td>
+			<td>0.03115000</td>
+			<td>21.668</td>
+			<td>10</td>
+			<td>311</td>
+			<td>574</td>
+			<td>405294</td>
+			<td>0.000000000065</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>4588</td>
+            <td>JavaFX Script</td>
+			<td>Jython</td>
+			<td>0.00001723</td>
+			<td>0.02181000</td>
+			<td>18.806</td>
+			<td>7</td>
+			<td>314</td>
+			<td>464</td>
+			<td>405404</td>
+			<td>0.000000128541</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>4286</td>
+            <td>JavaFX Script</td>
+			<td>Korn shell</td>
+			<td>0.00000739</td>
+			<td>0.00935000</td>
+			<td>12.529</td>
+			<td>3</td>
+			<td>318</td>
+			<td>300</td>
+			<td>405568</td>
+			<td>0.001883811228</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>16005</td>
+            <td>JavaFX Script</td>
+			<td>LaTeX</td>
+			<td>0.00001231</td>
+			<td>0.01558000</td>
+			<td>3.490</td>
+			<td>5</td>
+			<td>316</td>
+			<td>1808</td>
+			<td>404060</td>
+			<td>0.015304161822</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>7131</td>
+            <td>JavaFX Script</td>
+			<td>Lisp</td>
+			<td>0.00004185</td>
+			<td>0.05296000</td>
+			<td>13.861</td>
+			<td>17</td>
+			<td>304</td>
+			<td>1535</td>
+			<td>404333</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>11978</td>
+            <td>JavaFX Script</td>
+			<td>Lua</td>
+			<td>0.00001723</td>
+			<td>0.02181000</td>
+			<td>7.867</td>
+			<td>7</td>
+			<td>314</td>
+			<td>1119</td>
+			<td>404749</td>
+			<td>0.000037923897</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15969</td>
+            <td>JavaFX Script</td>
+			<td>make</td>
+			<td>0.00001970</td>
+			<td>0.02492000</td>
+			<td>8.543</td>
+			<td>8</td>
+			<td>313</td>
+			<td>1177</td>
+			<td>404691</td>
+			<td>0.000005876907</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>3360</td>
+            <td>JavaFX Script</td>
+			<td>MATLAB</td>
+			<td>0.00000985</td>
+			<td>0.01246000</td>
+			<td>1.796</td>
+			<td>4</td>
+			<td>317</td>
+			<td>2814</td>
+			<td>403054</td>
+			<td>0.185382778754</td>
+			<td></td>
+        </tr>
+		<tr>
+        	<td>10641</td>
+            <td>JavaFX Script</td>
+			<td>MXML</td>
+			<td>0.00001970</td>
+			<td>0.02492000</td>
+			<td>21.002</td>
+			<td>8</td>
+			<td>313</td>
+			<td>474</td>
+			<td>405394</td>
+			<td>0.000000006866</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15954</td>
+            <td>JavaFX Script</td>
+			<td>Objective-C</td>
+			<td>0.00007140</td>
+			<td>0.09034000</td>
+			<td>2.280</td>
+			<td>29</td>
+			<td>292</td>
+			<td>16063</td>
+			<td>389805</td>
+			<td>0.000039923423</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15886</td>
+            <td>JavaFX Script</td>
+			<td>Pascal</td>
+			<td>0.00000492</td>
+			<td>0.00623000</td>
+			<td>7.109</td>
+			<td>2</td>
+			<td>319</td>
+			<td>354</td>
+			<td>405514</td>
+			<td>0.032752935697</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15882</td>
+            <td>JavaFX Script</td>
+			<td>Perl</td>
+			<td>0.00007386</td>
+			<td>0.09346000</td>
+			<td>5.465</td>
+			<td>30</td>
+			<td>291</td>
+			<td>6916</td>
+			<td>398952</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15998</td>
+            <td>JavaFX Script</td>
+			<td>PHP</td>
+			<td>0.00020188</td>
+			<td>0.25545000</td>
+			<td>2.028</td>
+			<td>82</td>
+			<td>239</td>
+			<td>51094</td>
+			<td>354774</td>
+			<td>0.000000000250</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>4891</td>
+            <td>JavaFX Script</td>
+			<td>PL/SQL</td>
+			<td>0.00001970</td>
+			<td>0.02492000</td>
+			<td>6.629</td>
+			<td>8</td>
+			<td>313</td>
+			<td>1519</td>
+			<td>404349</td>
+			<td>0.000035614057</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15938</td>
+            <td>JavaFX Script</td>
+			<td>Windows PowerShell</td>
+			<td>0.00002216</td>
+			<td>0.02804000</td>
+			<td>5.655</td>
+			<td>9</td>
+			<td>312</td>
+			<td>2005</td>
+			<td>403863</td>
+			<td>0.000039894544</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15942</td>
+            <td>JavaFX Script</td>
+			<td>Prolog</td>
+			<td>0.00001477</td>
+			<td>0.01869000</td>
+			<td>10.386</td>
+			<td>6</td>
+			<td>315</td>
+			<td>725</td>
+			<td>405143</td>
+			<td>0.000029857865</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>5235</td>
+            <td>JavaFX Script</td>
+			<td>Python</td>
+			<td>0.00021419</td>
+			<td>0.27103000</td>
+			<td>3.730</td>
+			<td>87</td>
+			<td>234</td>
+			<td>29425</td>
+			<td>376443</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>12231</td>
+            <td>JavaFX Script</td>
+			<td>R</td>
+			<td>0.00000739</td>
+			<td>0.00935000</td>
+			<td>1.673</td>
+			<td>3</td>
+			<td>318</td>
+			<td>2266</td>
+			<td>403602</td>
+			<td>0.267360912898</td>
+			<td></td>
+        </tr>
+		<tr>
+        	<td>15915</td>
+            <td>JavaFX Script</td>
+			<td>Ruby</td>
+			<td>0.00012063</td>
+			<td>0.15265000</td>
+			<td>4.598</td>
+			<td>49</td>
+			<td>272</td>
+			<td>13435</td>
+			<td>392433</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>11221</td>
+            <td>JavaFX Script</td>
+			<td>Scala</td>
+			<td>0.00005662</td>
+			<td>0.07165000</td>
+			<td>12.400</td>
+			<td>23</td>
+			<td>298</td>
+			<td>2324</td>
+			<td>403544</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15896</td>
+            <td>JavaFX Script</td>
+			<td>Scheme</td>
+			<td>0.00002216</td>
+			<td>0.02804000</td>
+			<td>11.089</td>
+			<td>9</td>
+			<td>312</td>
+			<td>1018</td>
+			<td>404850</td>
+			<td>0.000000179899</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>10387</td>
+            <td>JavaFX Script</td>
+			<td>sed</td>
+			<td>0.00003200</td>
+			<td>0.04050000</td>
+			<td>11.337</td>
+			<td>13</td>
+			<td>308</td>
+			<td>1438</td>
+			<td>404430</td>
+			<td>0.000000000256</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15964</td>
+            <td>JavaFX Script</td>
+			<td>Smalltalk</td>
+			<td>0.00000739</td>
+			<td>0.00935000</td>
+			<td>11.165</td>
+			<td>3</td>
+			<td>318</td>
+			<td>337</td>
+			<td>405531</td>
+			<td>0.002607912349</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15995</td>
+            <td>JavaFX Script</td>
+			<td>SQL</td>
+			<td>0.00021172</td>
+			<td>0.26791000</td>
+			<td>3.556</td>
+			<td>86</td>
+			<td>235</td>
+			<td>30518</td>
+			<td>375350</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>16001</td>
+            <td>JavaFX Script</td>
+			<td>Transact-SQL</td>
+			<td>0.00004678</td>
+			<td>0.05919000</td>
+			<td>3.956</td>
+			<td>19</td>
+			<td>302</td>
+			<td>6059</td>
+			<td>399809</td>
+			<td>0.000000569072</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>12664</td>
+            <td>JavaFX Script</td>
+			<td>UML</td>
+			<td>0.00004431</td>
+			<td>0.05607000</td>
+			<td>15.917</td>
+			<td>18</td>
+			<td>303</td>
+			<td>1413</td>
+			<td>404455</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>14045</td>
+            <td>JavaFX Script</td>
+			<td>Vala</td>
+			<td>0.00000739</td>
+			<td>0.00935000</td>
+			<td>65.451</td>
+			<td>3</td>
+			<td>318</td>
+			<td>55</td>
+			<td>405813</td>
+			<td>0.000014607935</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15946</td>
+            <td>JavaFX Script</td>
+			<td>Visual Basic</td>
+			<td>0.00002708</td>
+			<td>0.03427000</td>
+			<td>5.444</td>
+			<td>11</td>
+			<td>310</td>
+			<td>2546</td>
+			<td>403322</td>
+			<td>0.000008018423</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15623</td>
+            <td>JavaFX Script</td>
+			<td>Visual Basic .NET</td>
+			<td>0.00007386</td>
+			<td>0.09346000</td>
+			<td>3.811</td>
+			<td>30</td>
+			<td>291</td>
+			<td>9930</td>
+			<td>395938</td>
+			<td>0.000000000657</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15878</td>
+            <td>JavaFX Script</td>
+			<td>VBScript</td>
+			<td>0.00002708</td>
+			<td>0.03427000</td>
+			<td>7.785</td>
+			<td>11</td>
+			<td>310</td>
+			<td>1777</td>
+			<td>404091</td>
+			<td>0.000000264953</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>9240</td>
+            <td>JavaFX Script</td>
+			<td>VHDL</td>
+			<td>0.00000492</td>
+			<td>0.00623000</td>
+			<td>11.994</td>
+			<td>2</td>
+			<td>319</td>
+			<td>209</td>
+			<td>405659</td>
+			<td>0.012372379631</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15910</td>
+            <td>JavaFX Script</td>
+			<td>XAML</td>
+			<td>0.00002954</td>
+			<td>0.03738000</td>
+			<td>4.599</td>
+			<td>12</td>
+			<td>309</td>
+			<td>3290</td>
+			<td>402578</td>
+			<td>0.000016577732</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>13301</td>
+            <td>JavaFX Script</td>
+			<td>XML</td>
+			<td>0.00019203</td>
+			<td>0.24299000</td>
+			<td>4.915</td>
+			<td>78</td>
+			<td>243</td>
+			<td>20005</td>
+			<td>385863</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>14462</td>
+            <td>JavaFX Script</td>
+			<td>XML Schema</td>
+			<td>0.00002708</td>
+			<td>0.03427000</td>
+			<td>11.561</td>
+			<td>11</td>
+			<td>310</td>
+			<td>1193</td>
+			<td>404675</td>
+			<td>0.000000005061</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15901</td>
+            <td>JavaFX Script</td>
+			<td>Xpath</td>
+			<td>0.00002462</td>
+			<td>0.03115000</td>
+			<td>4.365</td>
+			<td>10</td>
+			<td>311</td>
+			<td>2889</td>
+			<td>402979</td>
+			<td>0.000127045923</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>11716</td>
+            <td>JavaFX Script</td>
+			<td>XSLT</td>
+			<td>0.00004431</td>
+			<td>0.05607000</td>
+			<td>6.427</td>
+			<td>18</td>
+			<td>303</td>
+			<td>3526</td>
+			<td>402342</td>
+			<td>0.000000000855</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15935</td>
+            <td>JavaFX Script</td>
+			<td>zsh</td>
+			<td>0.00000492</td>
+			<td>0.00623000</td>
+			<td>11.100</td>
+			<td>2</td>
+			<td>319</td>
+			<td>226</td>
+			<td>405642</td>
+			<td>0.014325168570</td>
+			<td>yes</td>
+        </tr>
+		
+	</tbody>
+</table>
+</div>

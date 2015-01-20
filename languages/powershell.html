@@ -1,0 +1,1565 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Windows PowerShell</title>
+<style type="text/css">
+<!--
+@import url("style.css");
+-->
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28938909-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<div align=center>
+<table id="arm-data">
+    <thead>
+    	<tr>
+        	<th scope="col">Index</th>
+            <th scope="col">Left</th>
+			<th scope="col">Right</th>
+			<th scope="col">Support</th>
+			<th scope="col">Confidence</th>
+			<th scope="col">Lift</th>
+			<th scope="col">nBoth</th>
+			<th scope="col">nLeft-nBoth</th>
+			<th scope="col">nRight-nBoth</th>
+			<th scope="col">nExamples-nLeft-nRight+nBoth</th>
+			<th scope="col">p-value<sup><a href="#1">1</a></sup> Fisher's test</th>
+			<th scope="col">Significant at 0.05</th>
+        </tr>
+    </thead>
+	<tfoot>
+		<tr>
+			<td colspan="12"><sup><a name="1">1</a></sup> First 12 digits</td>
+		</tr>
+	</tfoot>
+    <tbody>
+	     <tr>
+        	<td>11105</td>
+            <td>Windows PowerShell</td>
+			<td>ABC</td>
+			<td>0.00000739</td>
+			<td>0.00149000</td>
+			<td>21.609</td>
+			<td>3</td>
+			<td>2011</td>
+			<td>25</td>
+			<td>404150</td>
+			<td>0.000363432465</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21526</td>
+            <td>Windows PowerShell</td>
+			<td>ActionScript</td>
+			<td>0.00005170</td>
+			<td>0.01043000</td>
+			<td>1.585</td>
+			<td>21</td>
+			<td>1993</td>
+			<td>2651</td>
+			<td>401524</td>
+			<td>0.028921300480</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>20264</td>
+            <td>Windows PowerShell</td>
+			<td>Ada</td>
+			<td>0.00001723</td>
+			<td>0.00348000</td>
+			<td>8.879</td>
+			<td>7</td>
+			<td>2007</td>
+			<td>152</td>
+			<td>404023</td>
+			<td>0.000016884103</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>7685</td>
+            <td>Windows PowerShell</td>
+			<td>Alice</td>
+			<td>0.00000492</td>
+			<td>0.00099000</td>
+			<td>7.470</td>
+			<td>2</td>
+			<td>2012</td>
+			<td>52</td>
+			<td>404123</td>
+			<td>0.029660855366</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21488</td>
+            <td>Windows PowerShell</td>
+			<td>Ant</td>
+			<td>0.00011079</td>
+			<td>0.02234000</td>
+			<td>3.721</td>
+			<td>45</td>
+			<td>1969</td>
+			<td>2394</td>
+			<td>401781</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>11580</td>
+            <td>Windows PowerShell</td>
+			<td>AppleScript</td>
+			<td>0.00003200</td>
+			<td>0.00645000</td>
+			<td>3.703</td>
+			<td>13</td>
+			<td>2001</td>
+			<td>695</td>
+			<td>403480</td>
+			<td>0.000072190266</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>6166</td>
+            <td>Windows PowerShell</td>
+			<td>AspectJ</td>
+			<td>0.00000492</td>
+			<td>0.00099000</td>
+			<td>1.613</td>
+			<td>2</td>
+			<td>2012</td>
+			<td>248</td>
+			<td>403927</td>
+			<td>0.351864609719</td>
+			<td></td>
+        </tr>
+		<tr>
+        	<td>13689</td>
+            <td>Windows PowerShell</td>
+			<td>Assembly</td>
+			<td>0.00021419</td>
+			<td>0.04320000</td>
+			<td>5.680</td>
+			<td>87</td>
+			<td>1927</td>
+			<td>3002</td>
+			<td>401173</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21539</td>
+            <td>Windows PowerShell</td>
+			<td>Awk</td>
+			<td>0.00006647</td>
+			<td>0.01341000</td>
+			<td>5.019</td>
+			<td>27</td>
+			<td>1987</td>
+			<td>1058</td>
+			<td>403117</td>
+			<td>0.000000000020</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15071</td>
+            <td>Windows PowerShell</td>
+			<td>Bash</td>
+			<td>0.00037421</td>
+			<td>0.07547000</td>
+			<td>4.905</td>
+			<td>152</td>
+			<td>1862</td>
+			<td>6098</td>
+			<td>398077</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>19247</td>
+            <td>Windows PowerShell</td>
+			<td>Basic</td>
+			<td>0.00003447</td>
+			<td>0.00695000</td>
+			<td>8.907</td>
+			<td>14</td>
+			<td>2000</td>
+			<td>303</td>
+			<td>403872</td>
+			<td>0.000000001145</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21004</td>
+            <td>Windows PowerShell</td>
+			<td>Windows batch</td>
+			<td>0.00035944</td>
+			<td>0.07249000</td>
+			<td>14.170</td>
+			<td>146</td>
+			<td>1868</td>
+			<td>1932</td>
+			<td>402243</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21542</td>
+            <td>Windows PowerShell</td>
+			<td>BeanShell</td>
+			<td>0.00000492</td>
+			<td>0.00099000</td>
+			<td>7.909</td>
+			<td>2</td>
+			<td>2012</td>
+			<td>49</td>
+			<td>404126</td>
+			<td>0.026685378947</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>8551</td>
+            <td>Windows PowerShell</td>
+			<td>Bison</td>
+			<td>0.00001477</td>
+			<td>0.00298000</td>
+			<td>4.879</td>
+			<td>6</td>
+			<td>2008</td>
+			<td>242</td>
+			<td>403933</td>
+			<td>0.001623198413</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>16551</td>
+            <td>Windows PowerShell</td>
+			<td>Boo</td>
+			<td>0.00004431</td>
+			<td>0.00894000</td>
+			<td>29.042</td>
+			<td>18</td>
+			<td>1996</td>
+			<td>107</td>
+			<td>404068</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15321</td>
+            <td>Windows PowerShell</td>
+			<td>C</td>
+			<td>0.00082720</td>
+			<td>0.16683000</td>
+			<td>3.112</td>
+			<td>336</td>
+			<td>1678</td>
+			<td>21438</td>
+			<td>382737</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>20003</td>
+            <td>Windows PowerShell</td>
+			<td>C#</td>
+			<td>0.00245945</td>
+			<td>0.49603000</td>
+			<td>3.516</td>
+			<td>999</td>
+			<td>1015</td>
+			<td>56298</td>
+			<td>347877</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>8008</td>
+            <td>Windows PowerShell</td>
+			<td>C++</td>
+			<td>0.00103646</td>
+			<td>0.20904000</td>
+			<td>2.611</td>
+			<td>421</td>
+			<td>1593</td>
+			<td>32097</td>
+			<td>372078</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>16974</td>
+            <td>Windows PowerShell</td>
+			<td>CL (OS/400)</td>
+			<td>0.00000492</td>
+			<td>0.00099000</td>
+			<td>20.168</td>
+			<td>2</td>
+			<td>2012</td>
+			<td>18</td>
+			<td>404157</td>
+			<td>0.004399823398</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>16733</td>
+            <td>Windows PowerShell</td>
+			<td>Clojure</td>
+			<td>0.00006647</td>
+			<td>0.01341000</td>
+			<td>4.901</td>
+			<td>27</td>
+			<td>1987</td>
+			<td>1084</td>
+			<td>403091</td>
+			<td>0.000000000034</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21500</td>
+            <td>Windows PowerShell</td>
+			<td>COBOL</td>
+			<td>0.00003939</td>
+			<td>0.00794000</td>
+			<td>11.283</td>
+			<td>16</td>
+			<td>1998</td>
+			<td>270</td>
+			<td>403905</td>
+			<td>0.000000000002</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>17380</td>
+            <td>Windows PowerShell</td>
+			<td>Cocoa</td>
+			<td>0.00012802</td>
+			<td>0.02582000</td>
+			<td>1.949</td>
+			<td>52</td>
+			<td>1962</td>
+			<td>5328</td>
+			<td>398847</td>
+			<td>0.000007350204</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15536</td>
+            <td>Windows PowerShell</td>
+			<td>ColdFusion</td>
+			<td>0.00004678</td>
+			<td>0.00943000</td>
+			<td>3.061</td>
+			<td>19</td>
+			<td>1995</td>
+			<td>1233</td>
+			<td>402942</td>
+			<td>0.000025005533</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>19040</td>
+            <td>Windows PowerShell</td>
+			<td>Common Lisp</td>
+			<td>0.00003200</td>
+			<td>0.00645000</td>
+			<td>4.793</td>
+			<td>13</td>
+			<td>2001</td>
+			<td>534</td>
+			<td>403641</td>
+			<td>0.000005047789</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21510</td>
+            <td>Windows PowerShell</td>
+			<td>C shell</td>
+			<td>0.00000492</td>
+			<td>0.00099000</td>
+			<td>3.201</td>
+			<td>2</td>
+			<td>2012</td>
+			<td>124</td>
+			<td>404051</td>
+			<td>0.129781251889</td>
+			<td></td>
+        </tr>
+		<tr>
+        	<td>21529</td>
+            <td>Windows PowerShell</td>
+			<td>CSS</td>
+			<td>0.00078289</td>
+			<td>0.15789000</td>
+			<td>2.537</td>
+			<td>318</td>
+			<td>1696</td>
+			<td>24960</td>
+			<td>379215</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>6936</td>
+            <td>Windows PowerShell</td>
+			<td>D</td>
+			<td>0.00002708</td>
+			<td>0.00546000</td>
+			<td>6.976</td>
+			<td>11</td>
+			<td>2003</td>
+			<td>307</td>
+			<td>403868</td>
+			<td>0.000000767837</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>5759</td>
+            <td>Windows PowerShell</td>
+			<td>xBase</td>
+			<td>0.00000492</td>
+			<td>0.00099000</td>
+			<td>7.203</td>
+			<td>2</td>
+			<td>2012</td>
+			<td>54</td>
+			<td>404121</td>
+			<td>0.031714294451</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21566</td>
+            <td>Windows PowerShell</td>
+			<td>Delphi/Object Pascal</td>
+			<td>0.00024127</td>
+			<td>0.04866000</td>
+			<td>5.691</td>
+			<td>98</td>
+			<td>1916</td>
+			<td>3375</td>
+			<td>400800</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21109</td>
+            <td>Windows PowerShell</td>
+			<td>DTD</td>
+			<td>0.00001723</td>
+			<td>0.00348000</td>
+			<td>4.265</td>
+			<td>7</td>
+			<td>2007</td>
+			<td>324</td>
+			<td>403851</td>
+			<td>0.001475461148</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21536</td>
+            <td>Windows PowerShell</td>
+			<td>Eiffel</td>
+			<td>0.00000492</td>
+			<td>0.00099000</td>
+			<td>12.223</td>
+			<td>2</td>
+			<td>2012</td>
+			<td>31</td>
+			<td>404144</td>
+			<td>0.011717293142</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>9904</td>
+            <td>Windows PowerShell</td>
+			<td>Emacs Lisp</td>
+			<td>0.00004431</td>
+			<td>0.00894000</td>
+			<td>6.448</td>
+			<td>18</td>
+			<td>1996</td>
+			<td>545</td>
+			<td>403630</td>
+			<td>0.000000000924</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>4080</td>
+            <td>Windows PowerShell</td>
+			<td>Erlang</td>
+			<td>0.00006155</td>
+			<td>0.01241000</td>
+			<td>4.766</td>
+			<td>25</td>
+			<td>1989</td>
+			<td>1033</td>
+			<td>403142</td>
+			<td>0.000000000320</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21497</td>
+            <td>Windows PowerShell</td>
+			<td>F#</td>
+			<td>0.00027820</td>
+			<td>0.05611000</td>
+			<td>17.708</td>
+			<td>113</td>
+			<td>1901</td>
+			<td>1174</td>
+			<td>403001</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>3760</td>
+            <td>Windows PowerShell</td>
+			<td>Factor</td>
+			<td>0.00001723</td>
+			<td>0.00348000</td>
+			<td>16.416</td>
+			<td>7</td>
+			<td>2007</td>
+			<td>79</td>
+			<td>404096</td>
+			<td>0.000000278471</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>13196</td>
+            <td>Windows PowerShell</td>
+			<td>Forth</td>
+			<td>0.00000739</td>
+			<td>0.00149000</td>
+			<td>10.804</td>
+			<td>3</td>
+			<td>2011</td>
+			<td>53</td>
+			<td>404122</td>
+			<td>0.002773785080</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>2868</td>
+            <td>Windows PowerShell</td>
+			<td>Fortran</td>
+			<td>0.00005170</td>
+			<td>0.01043000</td>
+			<td>7.687</td>
+			<td>21</td>
+			<td>1993</td>
+			<td>530</td>
+			<td>403645</td>
+			<td>0.000000000001</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>18237</td>
+            <td>Windows PowerShell</td>
+			<td>FoxPro</td>
+			<td>0.00002462</td>
+			<td>0.00497000</td>
+			<td>11.267</td>
+			<td>10</td>
+			<td>2004</td>
+			<td>169</td>
+			<td>404006</td>
+			<td>0.000000029670</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>1688</td>
+            <td>Windows PowerShell</td>
+			<td>Go</td>
+			<td>0.00003447</td>
+			<td>0.00695000</td>
+			<td>7.411</td>
+			<td>14</td>
+			<td>2000</td>
+			<td>367</td>
+			<td>403808</td>
+			<td>0.000000011779</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>6653</td>
+            <td>Windows PowerShell</td>
+			<td>Grammar</td>
+			<td>0.00005662</td>
+			<td>0.01142000</td>
+			<td>9.078</td>
+			<td>23</td>
+			<td>1991</td>
+			<td>488</td>
+			<td>403687</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>20579</td>
+            <td>Windows PowerShell</td>
+			<td>Groovy</td>
+			<td>0.00005662</td>
+			<td>0.01142000</td>
+			<td>3.190</td>
+			<td>23</td>
+			<td>1991</td>
+			<td>1431</td>
+			<td>402744</td>
+			<td>0.000001897133</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>17653</td>
+            <td>Windows PowerShell</td>
+			<td>Haskell</td>
+			<td>0.00010340</td>
+			<td>0.02085000</td>
+			<td>3.879</td>
+			<td>42</td>
+			<td>1972</td>
+			<td>2142</td>
+			<td>402033</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21522</td>
+            <td>Windows PowerShell</td>
+			<td>HTML</td>
+			<td>0.00111524</td>
+			<td>0.22493000</td>
+			<td>2.731</td>
+			<td>453</td>
+			<td>1561</td>
+			<td>33005</td>
+			<td>371170</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>16294</td>
+            <td>Windows PowerShell</td>
+			<td>IDL</td>
+			<td>0.00002462</td>
+			<td>0.00497000</td>
+			<td>17.848</td>
+			<td>10</td>
+			<td>2004</td>
+			<td>103</td>
+			<td>404072</td>
+			<td>0.000000000344</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>1121</td>
+            <td>Windows PowerShell</td>
+			<td>Informix-4GL</td>
+			<td>0.00003447</td>
+			<td>0.00695000</td>
+			<td>12.662</td>
+			<td>14</td>
+			<td>2000</td>
+			<td>209</td>
+			<td>403966</td>
+			<td>0.000000000011</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>18072</td>
+            <td>Windows PowerShell</td>
+			<td>Java</td>
+			<td>0.00121864</td>
+			<td>0.24578000</td>
+			<td>1.794</td>
+			<td>495</td>
+			<td>1519</td>
+			<td>55152</td>
+			<td>349023</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15939</td>
+            <td>Windows PowerShell</td>
+			<td>JavaFX Script</td>
+			<td>0.00002216</td>
+			<td>0.00447000</td>
+			<td>5.655</td>
+			<td>9</td>
+			<td>2005</td>
+			<td>312</td>
+			<td>403863</td>
+			<td>0.000039894544</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>14337</td>
+            <td>Windows PowerShell</td>
+			<td>JavaScript</td>
+			<td>0.00131220</td>
+			<td>0.26465000</td>
+			<td>1.994</td>
+			<td>533</td>
+			<td>1481</td>
+			<td>53376</td>
+			<td>350799</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>17207</td>
+            <td>Windows PowerShell</td>
+			<td>JRuby</td>
+			<td>0.00001723</td>
+			<td>0.00348000</td>
+			<td>2.417</td>
+			<td>7</td>
+			<td>2007</td>
+			<td>577</td>
+			<td>403598</td>
+			<td>0.028070161711</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>2568</td>
+            <td>Windows PowerShell</td>
+			<td>JScript.NET</td>
+			<td>0.00001231</td>
+			<td>0.00248000</td>
+			<td>31.513</td>
+			<td>5</td>
+			<td>2009</td>
+			<td>27</td>
+			<td>404148</td>
+			<td>0.000000537230</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>4685</td>
+            <td>Windows PowerShell</td>
+			<td>Jython</td>
+			<td>0.00004431</td>
+			<td>0.00894000</td>
+			<td>7.708</td>
+			<td>18</td>
+			<td>1996</td>
+			<td>453</td>
+			<td>403722</td>
+			<td>0.000000000054</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>4383</td>
+            <td>Windows PowerShell</td>
+			<td>Korn shell</td>
+			<td>0.00002462</td>
+			<td>0.00497000</td>
+			<td>6.656</td>
+			<td>10</td>
+			<td>2004</td>
+			<td>293</td>
+			<td>403882</td>
+			<td>0.000003666527</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21555</td>
+            <td>Windows PowerShell</td>
+			<td>LaTeX</td>
+			<td>0.00008124</td>
+			<td>0.01639000</td>
+			<td>3.671</td>
+			<td>33</td>
+			<td>1981</td>
+			<td>1780</td>
+			<td>402395</td>
+			<td>0.000000000430</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>14858</td>
+            <td>Windows PowerShell</td>
+			<td>Lex</td>
+			<td>0.00002216</td>
+			<td>0.00447000</td>
+			<td>7.659</td>
+			<td>9</td>
+			<td>2005</td>
+			<td>228</td>
+			<td>403947</td>
+			<td>0.000003612693</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>7254</td>
+            <td>Windows PowerShell</td>
+			<td>Lisp</td>
+			<td>0.00011079</td>
+			<td>0.02234000</td>
+			<td>5.848</td>
+			<td>45</td>
+			<td>1969</td>
+			<td>1507</td>
+			<td>402668</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>10933</td>
+            <td>Windows PowerShell</td>
+			<td>Logo</td>
+			<td>0.00001231</td>
+			<td>0.00248000</td>
+			<td>21.009</td>
+			<td>5</td>
+			<td>2009</td>
+			<td>43</td>
+			<td>404132</td>
+			<td>0.000004277111</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>12093</td>
+            <td>Windows PowerShell</td>
+			<td>Lua</td>
+			<td>0.00007140</td>
+			<td>0.01440000</td>
+			<td>5.194</td>
+			<td>29</td>
+			<td>1985</td>
+			<td>1097</td>
+			<td>403078</td>
+			<td>0.000000000002</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>18791</td>
+            <td>Windows PowerShell</td>
+			<td>M4</td>
+			<td>0.00000492</td>
+			<td>0.00099000</td>
+			<td>16.807</td>
+			<td>2</td>
+			<td>2012</td>
+			<td>22</td>
+			<td>404153</td>
+			<td>0.006307992789</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21513</td>
+            <td>Windows PowerShell</td>
+			<td>make</td>
+			<td>0.00005416</td>
+			<td>0.01092000</td>
+			<td>3.744</td>
+			<td>22</td>
+			<td>1992</td>
+			<td>1163</td>
+			<td>403012</td>
+			<td>0.000000234188</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>17906</td>
+            <td>Windows PowerShell</td>
+			<td>Maple</td>
+			<td>0.00000492</td>
+			<td>0.00099000</td>
+			<td>11.864</td>
+			<td>2</td>
+			<td>2012</td>
+			<td>32</td>
+			<td>404143</td>
+			<td>0.012409042815</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21516</td>
+            <td>Windows PowerShell</td>
+			<td>Mathematica</td>
+			<td>0.00001970</td>
+			<td>0.00397000</td>
+			<td>3.650</td>
+			<td>8</td>
+			<td>2006</td>
+			<td>434</td>
+			<td>403741</td>
+			<td>0.001854375284</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>3475</td>
+            <td>Windows PowerShell</td>
+			<td>MATLAB</td>
+			<td>0.00009848</td>
+			<td>0.01986000</td>
+			<td>2.863</td>
+			<td>40</td>
+			<td>1974</td>
+			<td>2778</td>
+			<td>401397</td>
+			<td>0.000000007677</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>8783</td>
+            <td>Windows PowerShell</td>
+			<td>ML</td>
+			<td>0.00001231</td>
+			<td>0.00248000</td>
+			<td>10.843</td>
+			<td>5</td>
+			<td>2009</td>
+			<td>88</td>
+			<td>404087</td>
+			<td>0.000107955186</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>10726</td>
+            <td>Windows PowerShell</td>
+			<td>MXML</td>
+			<td>0.00002462</td>
+			<td>0.00497000</td>
+			<td>4.184</td>
+			<td>10</td>
+			<td>2004</td>
+			<td>472</td>
+			<td>403703</td>
+			<td>0.000182226918</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21272</td>
+            <td>Windows PowerShell</td>
+			<td>Nemerle</td>
+			<td>0.00000739</td>
+			<td>0.00149000</td>
+			<td>26.306</td>
+			<td>3</td>
+			<td>2011</td>
+			<td>20</td>
+			<td>404155</td>
+			<td>0.000200139231</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>20366</td>
+            <td>Windows PowerShell</td>
+			<td>NXT-G</td>
+			<td>0.00000492</td>
+			<td>0.00099000</td>
+			<td>10.615</td>
+			<td>2</td>
+			<td>2012</td>
+			<td>36</td>
+			<td>404139</td>
+			<td>0.015348466879</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21494</td>
+            <td>Windows PowerShell</td>
+			<td>Objective-C</td>
+			<td>0.00028312</td>
+			<td>0.05710000</td>
+			<td>1.441</td>
+			<td>115</td>
+			<td>1899</td>
+			<td>15977</td>
+			<td>388198</td>
+			<td>0.000085870776</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>16123</td>
+            <td>Windows PowerShell</td>
+			<td>Ocaml</td>
+			<td>0.00003200</td>
+			<td>0.00645000</td>
+			<td>6.458</td>
+			<td>13</td>
+			<td>2001</td>
+			<td>393</td>
+			<td>403782</td>
+			<td>0.000000188698</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>2177</td>
+            <td>Windows PowerShell</td>
+			<td>OpenCL</td>
+			<td>0.00001231</td>
+			<td>0.00248000</td>
+			<td>3.477</td>
+			<td>5</td>
+			<td>2009</td>
+			<td>285</td>
+			<td>403890</td>
+			<td>0.015495752323</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>18901</td>
+            <td>Windows PowerShell</td>
+			<td>Pascal</td>
+			<td>0.00002216</td>
+			<td>0.00447000</td>
+			<td>5.099</td>
+			<td>9</td>
+			<td>2005</td>
+			<td>347</td>
+			<td>403828</td>
+			<td>0.000087838757</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>18646</td>
+            <td>Windows PowerShell</td>
+			<td>Perl</td>
+			<td>0.00037667</td>
+			<td>0.07597000</td>
+			<td>4.442</td>
+			<td>153</td>
+			<td>1861</td>
+			<td>6793</td>
+			<td>397382</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21491</td>
+            <td>Windows PowerShell</td>
+			<td>Pharo</td>
+			<td>0.00000492</td>
+			<td>0.00099000</td>
+			<td>6.303</td>
+			<td>2</td>
+			<td>2012</td>
+			<td>62</td>
+			<td>404113</td>
+			<td>0.040458578210</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21548</td>
+            <td>Windows PowerShell</td>
+			<td>PHP</td>
+			<td>0.00090844</td>
+			<td>0.18322000</td>
+			<td>1.454</td>
+			<td>369</td>
+			<td>1645</td>
+			<td>50807</td>
+			<td>353368</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>5000</td>
+            <td>Windows PowerShell</td>
+			<td>PL/SQL</td>
+			<td>0.00011079</td>
+			<td>0.02234000</td>
+			<td>5.943</td>
+			<td>45</td>
+			<td>1969</td>
+			<td>1482</td>
+			<td>402693</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>20779</td>
+            <td>Windows PowerShell</td>
+			<td>PostScript</td>
+			<td>0.00000985</td>
+			<td>0.00199000</td>
+			<td>5.273</td>
+			<td>4</td>
+			<td>2010</td>
+			<td>149</td>
+			<td>404026</td>
+			<td>0.007378976646</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21533</td>
+            <td>Windows PowerShell</td>
+			<td>PowerBuilder</td>
+			<td>0.00001231</td>
+			<td>0.00248000</td>
+			<td>7.255</td>
+			<td>5</td>
+			<td>2009</td>
+			<td>134</td>
+			<td>404041</td>
+			<td>0.000692447934</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>18512</td>
+            <td>Windows PowerShell</td>
+			<td>Progress</td>
+			<td>0.00000739</td>
+			<td>0.00149000</td>
+			<td>16.807</td>
+			<td>3</td>
+			<td>2011</td>
+			<td>33</td>
+			<td>404142</td>
+			<td>0.000769033183</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21480</td>
+            <td>Windows PowerShell</td>
+			<td>Prolog</td>
+			<td>0.00003200</td>
+			<td>0.00645000</td>
+			<td>3.587</td>
+			<td>13</td>
+			<td>2001</td>
+			<td>718</td>
+			<td>403457</td>
+			<td>0.000098982511</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>5374</td>
+            <td>Windows PowerShell</td>
+			<td>Python</td>
+			<td>0.00084690</td>
+			<td>0.17080000</td>
+			<td>2.351</td>
+			<td>344</td>
+			<td>1670</td>
+			<td>29168</td>
+			<td>375007</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>12342</td>
+            <td>Windows PowerShell</td>
+			<td>R</td>
+			<td>0.00005416</td>
+			<td>0.01092000</td>
+			<td>1.955</td>
+			<td>22</td>
+			<td>1992</td>
+			<td>2247</td>
+			<td>401928</td>
+			<td>0.002778098522</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>13001</td>
+            <td>Windows PowerShell</td>
+			<td>Racket</td>
+			<td>0.00002954</td>
+			<td>0.00596000</td>
+			<td>9.528</td>
+			<td>12</td>
+			<td>2002</td>
+			<td>242</td>
+			<td>403933</td>
+			<td>0.000000008225</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>1377</td>
+            <td>Windows PowerShell</td>
+			<td>REALbasic</td>
+			<td>0.00000492</td>
+			<td>0.00099000</td>
+			<td>5.762</td>
+			<td>2</td>
+			<td>2012</td>
+			<td>68</td>
+			<td>404107</td>
+			<td>0.047539260947</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>588</td>
+            <td>Windows PowerShell</td>
+			<td>Rebol</td>
+			<td>0.00000492</td>
+			<td>0.00099000</td>
+			<td>7.334</td>
+			<td>2</td>
+			<td>2012</td>
+			<td>53</td>
+			<td>404122</td>
+			<td>0.030680704820</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>10251</td>
+            <td>Windows PowerShell</td>
+			<td>RelaxNG</td>
+			<td>0.00000492</td>
+			<td>0.00099000</td>
+			<td>8.582</td>
+			<td>2</td>
+			<td>2012</td>
+			<td>45</td>
+			<td>404130</td>
+			<td>0.022920441715</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>20455</td>
+            <td>Windows PowerShell</td>
+			<td>Ruby</td>
+			<td>0.00047022</td>
+			<td>0.09484000</td>
+			<td>2.857</td>
+			<td>191</td>
+			<td>1823</td>
+			<td>13293</td>
+			<td>390882</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21503</td>
+            <td>Windows PowerShell</td>
+			<td>SAS</td>
+			<td>0.00001231</td>
+			<td>0.00248000</td>
+			<td>4.365</td>
+			<td>5</td>
+			<td>2009</td>
+			<td>226</td>
+			<td>403949</td>
+			<td>0.006233615615</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>11338</td>
+            <td>Windows PowerShell</td>
+			<td>Scala</td>
+			<td>0.00009848</td>
+			<td>0.01986000</td>
+			<td>3.437</td>
+			<td>40</td>
+			<td>1974</td>
+			<td>2307</td>
+			<td>401868</td>
+			<td>0.000000000045</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>19383</td>
+            <td>Windows PowerShell</td>
+			<td>Scheme</td>
+			<td>0.00008370</td>
+			<td>0.01688000</td>
+			<td>6.677</td>
+			<td>34</td>
+			<td>1980</td>
+			<td>993</td>
+			<td>403182</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>10494</td>
+            <td>Windows PowerShell</td>
+			<td>sed</td>
+			<td>0.00009848</td>
+			<td>0.01986000</td>
+			<td>5.560</td>
+			<td>40</td>
+			<td>1974</td>
+			<td>1411</td>
+			<td>402764</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21558</td>
+            <td>Windows PowerShell</td>
+			<td>Unix shell (sh)</td>
+			<td>0.00001723</td>
+			<td>0.00348000</td>
+			<td>7.024</td>
+			<td>7</td>
+			<td>2007</td>
+			<td>194</td>
+			<td>403981</td>
+			<td>0.000074868620</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21506</td>
+            <td>Windows PowerShell</td>
+			<td>Smalltalk</td>
+			<td>0.00002708</td>
+			<td>0.00546000</td>
+			<td>6.525</td>
+			<td>11</td>
+			<td>2003</td>
+			<td>329</td>
+			<td>403846</td>
+			<td>0.000001468821</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21545</td>
+            <td>Windows PowerShell</td>
+			<td>SQL</td>
+			<td>0.00143529</td>
+			<td>0.28947000</td>
+			<td>3.842</td>
+			<td>583</td>
+			<td>1431</td>
+			<td>30021</td>
+			<td>374154</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21562</td>
+            <td>Windows PowerShell</td>
+			<td>Tcl</td>
+			<td>0.00001970</td>
+			<td>0.00397000</td>
+			<td>4.246</td>
+			<td>8</td>
+			<td>2006</td>
+			<td>372</td>
+			<td>403803</td>
+			<td>0.000714595606</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>8966</td>
+            <td>Windows PowerShell</td>
+			<td>Termcap</td>
+			<td>0.00000492</td>
+			<td>0.00099000</td>
+			<td>33.614</td>
+			<td>2</td>
+			<td>2012</td>
+			<td>10</td>
+			<td>404165</td>
+			<td>0.001569110135</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21551</td>
+            <td>Windows PowerShell</td>
+			<td>Transact-SQL</td>
+			<td>0.00066964</td>
+			<td>0.13505000</td>
+			<td>9.026</td>
+			<td>272</td>
+			<td>1742</td>
+			<td>5806</td>
+			<td>398369</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>12775</td>
+            <td>Windows PowerShell</td>
+			<td>UML</td>
+			<td>0.00012063</td>
+			<td>0.02433000</td>
+			<td>6.906</td>
+			<td>49</td>
+			<td>1965</td>
+			<td>1382</td>
+			<td>402793</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21484</td>
+            <td>Windows PowerShell</td>
+			<td>Visual Basic</td>
+			<td>0.00027081</td>
+			<td>0.05462000</td>
+			<td>8.676</td>
+			<td>110</td>
+			<td>1904</td>
+			<td>2447</td>
+			<td>401728</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15746</td>
+            <td>Windows PowerShell</td>
+			<td>Visual Basic .NET</td>
+			<td>0.00088629</td>
+			<td>0.17875000</td>
+			<td>7.290</td>
+			<td>360</td>
+			<td>1654</td>
+			<td>9600</td>
+			<td>394575</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>18381</td>
+            <td>Windows PowerShell</td>
+			<td>VBScript</td>
+			<td>0.00035698</td>
+			<td>0.07200000</td>
+			<td>16.356</td>
+			<td>145</td>
+			<td>1869</td>
+			<td>1643</td>
+			<td>402532</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>9333</td>
+            <td>Windows PowerShell</td>
+			<td>VHDL</td>
+			<td>0.00001477</td>
+			<td>0.00298000</td>
+			<td>5.735</td>
+			<td>6</td>
+			<td>2008</td>
+			<td>205</td>
+			<td>403970</td>
+			<td>0.000710334416</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>19506</td>
+            <td>Windows PowerShell</td>
+			<td>Visual FoxPro</td>
+			<td>0.00000985</td>
+			<td>0.00199000</td>
+			<td>16.135</td>
+			<td>4</td>
+			<td>2010</td>
+			<td>46</td>
+			<td>404129</td>
+			<td>0.000115713264</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>20145</td>
+            <td>Windows PowerShell</td>
+			<td>XAML</td>
+			<td>0.00034959</td>
+			<td>0.07051000</td>
+			<td>8.673</td>
+			<td>142</td>
+			<td>1872</td>
+			<td>3160</td>
+			<td>401015</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>13432</td>
+            <td>Windows PowerShell</td>
+			<td>XML</td>
+			<td>0.00109555</td>
+			<td>0.22095000</td>
+			<td>4.469</td>
+			<td>445</td>
+			<td>1569</td>
+			<td>19638</td>
+			<td>384537</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>14563</td>
+            <td>Windows PowerShell</td>
+			<td>XML Schema</td>
+			<td>0.00010094</td>
+			<td>0.02036000</td>
+			<td>6.868</td>
+			<td>41</td>
+			<td>1973</td>
+			<td>1163</td>
+			<td>403012</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>19677</td>
+            <td>Windows PowerShell</td>
+			<td>Xpath</td>
+			<td>0.00023881</td>
+			<td>0.04816000</td>
+			<td>6.748</td>
+			<td>97</td>
+			<td>1917</td>
+			<td>2802</td>
+			<td>401373</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>8288</td>
+            <td>Windows PowerShell</td>
+			<td>XQuery</td>
+			<td>0.00005170</td>
+			<td>0.01043000</td>
+			<td>11.355</td>
+			<td>21</td>
+			<td>1993</td>
+			<td>352</td>
+			<td>403823</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>11831</td>
+            <td>Windows PowerShell</td>
+			<td>XSLT</td>
+			<td>0.00027327</td>
+			<td>0.05511000</td>
+			<td>6.317</td>
+			<td>111</td>
+			<td>1903</td>
+			<td>3433</td>
+			<td>400742</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21397</td>
+            <td>Windows PowerShell</td>
+			<td>zsh</td>
+			<td>0.00001723</td>
+			<td>0.00348000</td>
+			<td>6.192</td>
+			<td>7</td>
+			<td>2007</td>
+			<td>221</td>
+			<td>403954</td>
+			<td>0.000163272228</td>
+			<td>yes</td>
+        </tr>
+		
+	</tbody>
+</table>
+</div>

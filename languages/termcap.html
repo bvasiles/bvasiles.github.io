@@ -1,0 +1,417 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Termcap</title>
+<style type="text/css">
+<!--
+@import url("style.css");
+-->
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28938909-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<div align=center>
+<table id="arm-data">
+    <thead>
+    	<tr>
+        	<th scope="col">Index</th>
+            <th scope="col">Left</th>
+			<th scope="col">Right</th>
+			<th scope="col">Support</th>
+			<th scope="col">Confidence</th>
+			<th scope="col">Lift</th>
+			<th scope="col">nBoth</th>
+			<th scope="col">nLeft-nBoth</th>
+			<th scope="col">nRight-nBoth</th>
+			<th scope="col">nExamples-nLeft-nRight+nBoth</th>
+			<th scope="col">p-value<sup><a href="#1">1</a></sup> Fisher's test</th>
+			<th scope="col">Significant at 0.05</th>
+        </tr>
+    </thead>
+	<tfoot>
+		<tr>
+			<td colspan="12"><sup><a name="1">1</a></sup> First 12 digits</td>
+		</tr>
+	</tfoot>
+    <tbody>
+	     <tr>
+        	<td>8884</td>
+            <td>Termcap</td>
+			<td>Assembly</td>
+			<td>0.00000492</td>
+			<td>0.16667000</td>
+			<td>21.916</td>
+			<td>2</td>
+			<td>10</td>
+			<td>3087</td>
+			<td>403090</td>
+			<td>0.003627331047</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>9000</td>
+            <td>Termcap</td>
+			<td>Awk</td>
+			<td>0.00001231</td>
+			<td>0.41667000</td>
+			<td>155.987</td>
+			<td>5</td>
+			<td>7</td>
+			<td>1080</td>
+			<td>405097</td>
+			<td>0.000000000105</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>8896</td>
+            <td>Termcap</td>
+			<td>Bash</td>
+			<td>0.00001477</td>
+			<td>0.50000000</td>
+			<td>32.495</td>
+			<td>6</td>
+			<td>6</td>
+			<td>6244</td>
+			<td>399933</td>
+			<td>0.000000011298</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>8955</td>
+            <td>Termcap</td>
+			<td>Windows batch</td>
+			<td>0.00000492</td>
+			<td>0.16667000</td>
+			<td>32.579</td>
+			<td>2</td>
+			<td>10</td>
+			<td>2076</td>
+			<td>404101</td>
+			<td>0.001668692216</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>8899</td>
+            <td>Termcap</td>
+			<td>C</td>
+			<td>0.00001231</td>
+			<td>0.41667000</td>
+			<td>7.773</td>
+			<td>5</td>
+			<td>7</td>
+			<td>21769</td>
+			<td>384408</td>
+			<td>0.000254838276</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>8942</td>
+            <td>Termcap</td>
+			<td>C#</td>
+			<td>0.00000739</td>
+			<td>0.25000000</td>
+			<td>1.772</td>
+			<td>3</td>
+			<td>9</td>
+			<td>57294</td>
+			<td>348883</td>
+			<td>0.233846690515</td>
+			<td></td>
+        </tr>
+		<tr>
+        	<td>7769</td>
+            <td>Termcap</td>
+			<td>C++</td>
+			<td>0.00001477</td>
+			<td>0.50000000</td>
+			<td>6.246</td>
+			<td>6</td>
+			<td>6</td>
+			<td>32512</td>
+			<td>373665</td>
+			<td>0.000159002905</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>8994</td>
+            <td>Termcap</td>
+			<td>CSS</td>
+			<td>0.00000985</td>
+			<td>0.33333000</td>
+			<td>5.356</td>
+			<td>4</td>
+			<td>8</td>
+			<td>25274</td>
+			<td>380903</td>
+			<td>0.004949779744</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>8861</td>
+            <td>Termcap</td>
+			<td>Emacs Lisp</td>
+			<td>0.00000492</td>
+			<td>0.16667000</td>
+			<td>120.245</td>
+			<td>2</td>
+			<td>10</td>
+			<td>561</td>
+			<td>405616</td>
+			<td>0.000125410759</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>8989</td>
+            <td>Termcap</td>
+			<td>HTML</td>
+			<td>0.00000985</td>
+			<td>0.33333000</td>
+			<td>4.047</td>
+			<td>4</td>
+			<td>8</td>
+			<td>33454</td>
+			<td>372723</td>
+			<td>0.013286202690</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>8919</td>
+            <td>Termcap</td>
+			<td>Java</td>
+			<td>0.00000985</td>
+			<td>0.33333000</td>
+			<td>2.433</td>
+			<td>4</td>
+			<td>8</td>
+			<td>55643</td>
+			<td>350534</td>
+			<td>0.070175132654</td>
+			<td></td>
+        </tr>
+		<tr>
+        	<td>8890</td>
+            <td>Termcap</td>
+			<td>JavaScript</td>
+			<td>0.00000739</td>
+			<td>0.25000000</td>
+			<td>1.884</td>
+			<td>3</td>
+			<td>9</td>
+			<td>53906</td>
+			<td>352271</td>
+			<td>0.206432575009</td>
+			<td></td>
+        </tr>
+		<tr>
+        	<td>4210</td>
+            <td>Termcap</td>
+			<td>Korn shell</td>
+			<td>0.00000492</td>
+			<td>0.16667000</td>
+			<td>223.426</td>
+			<td>2</td>
+			<td>10</td>
+			<td>301</td>
+			<td>405876</td>
+			<td>0.000036424432</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>9012</td>
+            <td>Termcap</td>
+			<td>LaTeX</td>
+			<td>0.00000739</td>
+			<td>0.25000000</td>
+			<td>56.011</td>
+			<td>3</td>
+			<td>9</td>
+			<td>1810</td>
+			<td>404367</td>
+			<td>0.000018951459</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>8982</td>
+            <td>Termcap</td>
+			<td>make</td>
+			<td>0.00000985</td>
+			<td>0.33333000</td>
+			<td>114.259</td>
+			<td>4</td>
+			<td>8</td>
+			<td>1181</td>
+			<td>404996</td>
+			<td>0.000000035017</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>3274</td>
+            <td>Termcap</td>
+			<td>MATLAB</td>
+			<td>0.00000492</td>
+			<td>0.16667000</td>
+			<td>24.023</td>
+			<td>2</td>
+			<td>10</td>
+			<td>2816</td>
+			<td>403361</td>
+			<td>0.003032146705</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>8925</td>
+            <td>Termcap</td>
+			<td>Perl</td>
+			<td>0.00001477</td>
+			<td>0.50000000</td>
+			<td>29.239</td>
+			<td>6</td>
+			<td>6</td>
+			<td>6940</td>
+			<td>399237</td>
+			<td>0.000000021105</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>9007</td>
+            <td>Termcap</td>
+			<td>PHP</td>
+			<td>0.00000739</td>
+			<td>0.25000000</td>
+			<td>1.984</td>
+			<td>3</td>
+			<td>9</td>
+			<td>51173</td>
+			<td>355004</td>
+			<td>0.185077082999</td>
+			<td></td>
+        </tr>
+		<tr>
+        	<td>8965</td>
+            <td>Termcap</td>
+			<td>Windows PowerShell</td>
+			<td>0.00000492</td>
+			<td>0.16667000</td>
+			<td>33.614</td>
+			<td>2</td>
+			<td>10</td>
+			<td>2012</td>
+			<td>404165</td>
+			<td>0.001569110136</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>5137</td>
+            <td>Termcap</td>
+			<td>Python</td>
+			<td>0.00000739</td>
+			<td>0.25000000</td>
+			<td>3.441</td>
+			<td>3</td>
+			<td>9</td>
+			<td>29509</td>
+			<td>376668</td>
+			<td>0.051375829009</td>
+			<td></td>
+        </tr>
+		<tr>
+        	<td>8866</td>
+            <td>Termcap</td>
+			<td>sed</td>
+			<td>0.00000985</td>
+			<td>0.33333000</td>
+			<td>93.312</td>
+			<td>4</td>
+			<td>8</td>
+			<td>1447</td>
+			<td>404730</td>
+			<td>0.000000078462</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>9015</td>
+            <td>Termcap</td>
+			<td>Unix shell (sh)</td>
+			<td>0.00000492</td>
+			<td>0.16667000</td>
+			<td>336.807</td>
+			<td>2</td>
+			<td>10</td>
+			<td>199</td>
+			<td>405978</td>
+			<td>0.000016028626</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>9004</td>
+            <td>Termcap</td>
+			<td>SQL</td>
+			<td>0.00000985</td>
+			<td>0.33333000</td>
+			<td>4.424</td>
+			<td>4</td>
+			<td>8</td>
+			<td>30600</td>
+			<td>375577</td>
+			<td>0.009747566582</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>8881</td>
+            <td>Termcap</td>
+			<td>XML</td>
+			<td>0.00000739</td>
+			<td>0.25000000</td>
+			<td>5.056</td>
+			<td>3</td>
+			<td>9</td>
+			<td>20080</td>
+			<td>386097</td>
+			<td>0.018991609463</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>8936</td>
+            <td>Termcap</td>
+			<td>Xpath</td>
+			<td>0.00000492</td>
+			<td>0.16667000</td>
+			<td>23.352</td>
+			<td>2</td>
+			<td>10</td>
+			<td>2897</td>
+			<td>403280</td>
+			<td>0.003204733938</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>8962</td>
+            <td>Termcap</td>
+			<td>zsh</td>
+			<td>0.00000492</td>
+			<td>0.16667000</td>
+			<td>296.922</td>
+			<td>2</td>
+			<td>10</td>
+			<td>226</td>
+			<td>405951</td>
+			<td>0.000020627115</td>
+			<td>yes</td>
+        </tr>
+		
+	</tbody>
+</table>
+</div>
