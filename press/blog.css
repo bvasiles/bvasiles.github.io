@@ -1,0 +1,22 @@
+div#toptitle {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 0.5em;
+	text-align: center
+}
+
+li {
+	margin-bottom: 0.3em;
+}
+
+#layout-content {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1em;
+}
+
+img {
+	border: none;
+}
+

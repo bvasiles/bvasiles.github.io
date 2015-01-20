@@ -1,0 +1,59 @@
+# jemdoc: fwtitle, addcss{blog.css}, title{Bogdan Vasilescu}, analytics{UA-28938909-1}
+= Gender and tenure diversity in GitHub teams
+
+# ~~~
+# {}{img_left}{diversity.jpg}{}{600}{}{http://github.com}
+# ~~~
+
+
+*Having higher gender and tenure diversity is associated with higher 
+productivity in [http://github.com GitHub] teams*.
+
+A joint team of computer science researchers from 
+[http://www.cs.ucdavis.edu University of California, Davis] and 
+[http://www.tue.nl/en/ Eindhoven University of Technology], in The Netherlands, 
+have conducted a study of the effects of  gender and tenure diversity on 
+productivity and turnover in teams of Open Source Software (OSS) developers, 
+and have found small but positive effects. 
+The paper describing the results has been accepted for presentation at the 
+prestigious [http://chi2015.acm.org 2015 ACM CHI Conference on Human Factors 
+in Computing Systems], in Seoul, South Korea, in April 2015. 
+The paper was authored by 
+[http://bvasiles.github.io Bogdan Vasilescu],
+[http://scholar.google.com/citations?user=IT0VNZkAAAAJ&hl=en Daryl Posnett],
+[http://baishakhir.github.io Baishakhi Ray],
+[http://www.win.tue.nl/~mvdbrand/ Mark van den Brand],
+[http://www.win.tue.nl/~aserebre Alexander Serebrenik], 
+[http://www.cs.ucdavis.edu/~devanbu/ Prem Devanbu],
+and [http://www.cs.ucdavis.edu/~filkov/ Vladimir Filkov].
+
+Dr. Vasilescu, the first author on the paper, and colleagues used regression 
+modeling on carefully-extracted data from more than 23,000 projects on GitHub, 
+the largest and most popular online collaborative coding platform. 
+To triangulate the findings, they also ran a user survey, with more than 800 
+respondents. 
+Their models show that after controlling for team size and other confounds 
+(such as a project's age, development model, or amount of social activity), 
+both /gender and tenure diversity are positive and significant predictors of 
+productivity/, together explaining a small but significant fraction of the data 
+variability. 
+The benefits of experience diversity have a limit, though, as higher tenure 
+diversity may increase attrition. 
+This negative effect appears to be mitigated, however, when more experienced 
+people are present. 
+Survey respondents acknowledged the importance of diversity on their team's 
+functioning, but reported different perceived effects.
+
+This is the first academic study to consider effects of /gender/ diversity on 
+productivity and turnover in OSS communities. 
+Based on these findings, Prof. Filkov, the senior author on the paper, believes 
+that increasing gender and tenure diversity in software teams may benefit 
+productivity, if all other confounds are equal. 
+Traditionally, women are significantly underrepresented in OSS and other 
+technical teams. 
+On a larger, economic and societal scale, these findings suggest that added 
+investments in educational and professional training efforts and outreach for 
+female programmers will likely result in added overall value. 
+
+A preprint containing more details is available 
+[http://bvasiles.github.io/papers/chi15.pdf here].
