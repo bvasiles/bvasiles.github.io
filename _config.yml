@@ -1,0 +1,37 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Bogdan Vasilescu
+tagline:          'Welcome to my website!'
+baseurl:          /
+
+paginate:         5
+
+# Custom vars
+scholar:
+  style: assets/my-acm-sigchi-proceedings.csl
+  locale: en
+
+  sort_by: year
+  order: descending
+
+  source: ./_bibliography
+  bibliography: publications.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
+  
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
