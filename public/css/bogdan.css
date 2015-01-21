@@ -57,7 +57,13 @@ div.refs-row {
 
 div.reference {
 	line-height: 1;
-	margin-bottom: 0.3em;
+	margin-bottom: 0.5em;
+	margin-top: 1em;
+}
+
+ol.bibliography{
+	font-size: 0.8rem;
+	line-height: 1;
 }
 
 .bibtex-entry {
@@ -88,7 +94,7 @@ div.bibtex pre {
 	font-size: 75%; 
 	overflow: auto;  
 	width: 100%; 
-	line-height: 1;
+/* 	line-height: 1; */
 }
 
 @media (min-width: 48em) {
