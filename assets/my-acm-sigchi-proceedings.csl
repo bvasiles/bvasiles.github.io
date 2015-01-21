@@ -70,7 +70,8 @@
   </macro>
   <macro name="conference">
     <group delimiter=", ">
-      <text variable="collection-title" font-style="italic"/>
+<!--       <text variable="collection-title" font-style="italic"/> -->
+      <text variable="container-title" font-style="italic"/>
       <group delimiter=" ">
         <text variable="publisher"/>
         <text macro="year" prefix="(" suffix=")"/>
@@ -102,8 +103,13 @@
     </sort>
     <layout suffix=".">
 <!--       <text variable="citation-number" suffix="."/> -->
-      <text macro="author" suffix=". "/>
+	<group display="block">
       <text macro="title" suffix=". "/>
+    </group>
+    <group display="block">
+      <text macro="author" suffix=". "/>
+    </group>
+    <group display="block">
       <choose>
         <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
           <text macro="book-publisher" suffix="."/>
@@ -141,6 +147,7 @@
           <text variable="URL" prefix=" "/>
         </else>
       </choose>
+    </group>
     </layout>
   </bibliography>
 </style>

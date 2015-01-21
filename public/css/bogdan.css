@@ -33,60 +33,44 @@
   font-size: 1.9rem;
 }
 
-/* 
-Sidebar nav.sidebar-nav {
-  margin-bottom: 1rem;
+ol.bibliography {
+  line-height: 1.2;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+  font-size: 0.85rem;
 }
-.sidebar-nav-item {
-  display: block;
-  line-height: 1.75;
+
+li {
+	margin-top:4px;
+    margin-bottom:4px;
 }
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
-  text-decoration: underline;
-}
-.sidebar-nav-item.active {
-  font-weight: bold;
-}
- */
 
 div.refs-row {
-	font-size: 0.8rem;
+  font-size: 0.85rem;
 }
 
 div.reference {
 	line-height: 1;
-	margin-bottom: 0.5em;
-	margin-top: 0.7em;
-}
-
-ol.bibliography{
-	font-size: 0.8rem;
-	line-height: 1;
+	margin-bottom: 0.3em;
 }
 
 .bibtex-entry {
-	font-size: 0.8rem;
+	font-size: 0.85rem;
 }
 
 div.bibtex pre { 
 	font-size: 75%; 
 	overflow: auto;  
 	width: 100%; 
+	line-height: 1;
 }
 
 @media (min-width: 48em) {
   .content {
-    max-width: 42rem;
+    max-width: 43rem;
   }
 }
 
 .highlighted { 
 	background:yellow 
-}
-
-img.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
 }
