@@ -41,7 +41,7 @@ ol.bibliography {
 }
 
 b.ref{
-  background:AntiqueWhite 
+  background:AntiqueWhite;
 }
 
 li {
@@ -51,6 +51,10 @@ li {
 
 div.refs-row {
   font-size: 0.85rem;
+}
+
+span.refs-acceptance {
+color: #6a9fb5;
 }
 
 div.reference {
