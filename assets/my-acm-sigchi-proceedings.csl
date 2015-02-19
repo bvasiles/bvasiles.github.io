@@ -70,8 +70,8 @@
   </macro>
   <macro name="conference">
     <group delimiter=", ">
-<!--       <text variable="collection-title" font-style="italic"/> -->
       <text variable="container-title" font-style="italic"/>
+      <text variable="collection-title" font-style="italic"/>
       <group delimiter=" ">
         <text variable="publisher"/>
         <text macro="year" prefix="(" suffix=")"/>
