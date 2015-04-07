@@ -4,13 +4,240 @@
  <title>Bogdan Vasilescu</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2015-03-24T16:43:56-07:00</updated>
+ <updated>2015-04-06T22:47:21-07:00</updated>
  <id></id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Conference Monitor</title>
+   <link href="/2015/04/05/conference-monitor/"/>
+   <updated>2015-04-05T00:00:00-07:00</updated>
+   <id>/2015/04/05/conference-monitor</id>
+   <content type="html">&lt;p&gt;Recently I started experimenting with &lt;a href=&quot;http://www.highcharts.com&quot;&gt;Highcharts&lt;/a&gt;
+to visualize &lt;a href=&quot;http://bvasiles.github.io/papers/scico13.pdf&quot;&gt;our conference metrics&lt;/a&gt; 
+in the browser. Here&amp;#39;s a sample. Conference organizers may find these useful.
+Click (tap) on conference names in the legend below each plot to enable those 
+series. The data is stored in &lt;a href=&quot;https://github.com/tue-mdse/conferenceMetrics&quot;&gt;this GitHub repo&lt;/a&gt; 
+and loaded dynamically on page load.&lt;/p&gt;
+
+&lt;h3&gt;Acceptance rates&lt;/h3&gt;
+
+&lt;p&gt;Number of papers submitted and accepted to the &lt;em&gt;main research track&lt;/em&gt; of each 
+conference (without distinguishing between long and short papers, if both were 
+part of the main track).&lt;/p&gt;
+
+&lt;div id=&quot;container_sp&quot; style=&quot;min-width:310px; height:400px; margin:0 auto; width:800px;&quot;&gt;&lt;/div&gt;
+
+&lt;div id=&quot;container_ra&quot; style=&quot;min-width:310px; height:400px; margin:0 auto; width:800px;&quot;&gt;&lt;/div&gt;
+
+&lt;h3&gt;Program committees&lt;/h3&gt;
+
+&lt;h5&gt;PC size&lt;/h5&gt;
+
+&lt;p&gt;Number of PC members.&lt;/p&gt;
+
+&lt;div id=&quot;container_c&quot; style=&quot;min-width:310px; height:400px; margin:0 auto; width:800px;&quot;&gt;&lt;/div&gt;
+
+&lt;h5&gt;Review load&lt;/h5&gt;
+
+&lt;p&gt;Ratio between number of submissions and number of PC members.
+If each submission is reviewed by 3 PC members, multiply each value by 3 to
+see how many submissions are assigned to each PC member.&lt;/p&gt;
+
+&lt;div id=&quot;container_rl&quot; style=&quot;min-width:310px; height:400px; margin:0 auto; width:800px;&quot;&gt;&lt;/div&gt;
+
+&lt;h3&gt;PC turnover&lt;/h3&gt;
+
+&lt;p&gt;Fraction of PC members in a given year which are new with respect to the 
+previous year.&lt;/p&gt;
+
+&lt;div id=&quot;container_rnc1&quot; style=&quot;min-width:310px; height:400px; margin:0 auto; width:800px;&quot;&gt;&lt;/div&gt;
+
+&lt;h3&gt;Openness&lt;/h3&gt;
+
+&lt;h5&gt;Papers by new authors (w.r.t. the previous 4 editions)&lt;/h5&gt;
+
+&lt;p&gt;Fraction of accepted papers that have been co-authored by &lt;em&gt;new authors&lt;/em&gt;, i.e., 
+papers for which none of the authors published at any of the previous 4 editions 
+of this conference.&lt;/p&gt;
+
+&lt;div id=&quot;container_rpna4&quot; style=&quot;min-width:310px; height:400px; margin:0 auto; width:800px;&quot;&gt;&lt;/div&gt;
+
+&lt;h5&gt;Papers by PC members&lt;/h5&gt;
+
+&lt;p&gt;Fraction of accepted papers that have been co-authored by at least one PC member.&lt;/p&gt;
+
+&lt;div id=&quot;container_rac0&quot; style=&quot;min-width:310px; height:400px; margin:0 auto; width:800px;&quot;&gt;&lt;/div&gt;
+
+&lt;h4&gt;Note&lt;/h4&gt;
+
+&lt;p&gt;You can contribute additional data by submitting pull requests to 
+&lt;a href=&quot;https://github.com/tue-mdse/conferenceMetrics&quot;&gt;this repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;More details about the metrics:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;http://bvasiles.github.io/papers/scico13.pdf&quot;&gt;How healthy are software engineering conferences?&lt;/a&gt;
+&lt;em&gt;Vasilescu, B., Serebrenik, A., Mens, T., Brand, M.G.J. van den, and Pek, E.&lt;/em&gt;
+Science of Computer Programming 89, Part C, (2014), 251–272.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;script src=&quot;http://code.highcharts.com/highcharts.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;http://code.highcharts.com/modules/data.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;http://code.highcharts.com/modules/exporting.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;!-- Additional files for the Highslide popup effect --&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.highcharts.com/media/com_demo/highslide-full.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://www.highcharts.com/media/com_demo/highslide.config.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;http://www.highcharts.com/media/com_demo/highslide.css&quot; /&gt;&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(function () {
+
+    function myChart(myTitle, myYLbl, csvPath, container) {
+        var options = {
+            chart: {
+                renderTo: container,
+                type: &#39;line&#39;
+            },
+            title: {
+                text: myTitle
+            },
+            xAxis: {
+                categories: []
+            },
+            yAxis: {
+                title: {
+                    text: myYLbl
+                }
+            },
+            series: [],        
+            tooltip: {
+                formatter: function() {
+                  var s = [];
+                  $.each(this.points, function(i, point) {
+                    s.push(&#39;&lt;span class=&quot;tooltip&quot;&gt;&#39; + point.series.name + &#39; : &#39; +
+                      point.y + &#39;&lt;br&gt;&lt;span&gt;&#39;);
+                  });
+                  return s.join(&#39;&#39;);
+                },
+                shared: true
+            }
+        };
+
+        // Get the CSV and create the chart
+        $.get(csvPath, function(csv) {
+            var dataColumns = [];
+            var dataNames = [];
+            var xLabels = [];
+        
+            // Split the lines
+            var lines = csv.split(&#39;\n&#39;);
+
+            // Extract categories from header
+            // year,ICSE,ICSM,WCRE,CSMR,MSR,GPCE,FASE,ICPC,FSE,SCAM,ASE
+            var header = lines[0];
+            var items = header.split(&#39;;&#39;);
+            for (i=1;i&lt;items.length;i++) {
+                dataColumns.push([]);
+            }
+            dataNames = items.slice(1,items.length);
+
+            // Extract data for the most recent 10 years        
+            // 2013,50,71,65,64,46,27,30,50,37,36,33
+            // 2012,48,70,65,64,41,32,31,38,36,42,44
+            var rlines = lines.slice(1, 11);
+            rlines.reverse();
+
+            $.each(rlines, function (lineNo, line) {
+                var items = line.split(&#39;;&#39;);
+
+                $.each(items, function (itemNo, item) {
+                    // Data is from column 1 onwards
+                    if (itemNo &gt; 0) {
+                        if (item.length == 0){
+                            var val = null;
+                        }else{
+                            var val = parseFloat(item);
+                        }
+                        dataColumns[itemNo-1].push(val);
+                    }
+                    // The year is column 0
+                    else{
+                        xLabels.push(item);
+                        options.xAxis.categories.push(item);
+                    }                    
+                });
+            });
+
+            // Create data series                
+            for (i=0;i&lt;dataColumns.length;i++) {
+                var r = dataColumns[i];
+                var series = {
+                    data: r,
+                    name: dataNames[i]
+                };
+                if (series.name !== &quot;ICSE&quot; &amp; 
+                        series.name !== &quot;FSE&quot; &amp;
+                        series.name !== &quot;ICSM&quot;) { 
+                    series.visible = false; 
+                }
+    
+                options.series.push(series);
+            }
+            var chart = new Highcharts.Chart(options);
+        });
+    }
+
+    myChart(&#39;Submissions&#39;, 
+            &#39;#Submitted_papers&#39;, 
+            &#39;https://gist.githubusercontent.com/bvasiles/25b581b408928c547e21/raw/SP.csv&#39;,
+            &#39;container_sp&#39;);
+    
+    myChart(&#39;Acceptance Rates&#39;, 
+            &#39;#Accepted_papers / #Submitted_papers&#39;, 
+            &#39;https://gist.githubusercontent.com/bvasiles/25b581b408928c547e21/raw/RA.csv&#39;,
+            &#39;container_ra&#39;);
+
+    myChart(&#39;Program Committee Size&#39;, 
+            &#39;#PC members&#39;, 
+            &#39;https://gist.githubusercontent.com/bvasiles/25b581b408928c547e21/raw/C.csv&#39;,
+            &#39;container_c&#39;);
+            
+    myChart(&#39;PC Turnover&#39;, 
+            &#39;Fraction PC new w.r.t. previous year&#39;, 
+            &#39;https://gist.githubusercontent.com/bvasiles/25b581b408928c547e21/raw/RNC1.csv&#39;,
+            &#39;container_rnc1&#39;);
+            
+    myChart(&#39;Review Load (x 3)&#39;, 
+            &#39;#Submissions / #PC_members&#39;,
+            &#39;https://gist.githubusercontent.com/bvasiles/25b581b408928c547e21/raw/RL.csv&#39;,
+            &#39;container_rl&#39;);
+            
+    myChart(&#39;Papers by New Authors (w.r.t. previous 4 years)&#39;, 
+            &#39;Fraction papers by new authors&#39;, 
+            &#39;https://gist.githubusercontent.com/bvasiles/25b581b408928c547e21/raw/RPNA4.csv&#39;,
+            &#39;container_rpna4&#39;);
+
+    myChart(&#39;Fraction Papers by PC members&#39;, 
+            &#39;Fraction PC papers&#39;,
+            &#39;https://gist.githubusercontent.com/bvasiles/25b581b408928c547e21/raw/RAC0.csv&#39;,
+            &#39;container_rac0&#39;);
+});
+&lt;/script&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Gender and tenure diversity in GitHub teams</title>
