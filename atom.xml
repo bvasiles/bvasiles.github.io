@@ -4,7 +4,7 @@
  <title>Bogdan Vasilescu</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2015-04-06T22:47:21-07:00</updated>
+ <updated>2015-04-07T20:32:13-07:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -26,11 +26,20 @@ and loaded dynamically on page load.&lt;/p&gt;
 
 &lt;h3&gt;Acceptance rates&lt;/h3&gt;
 
-&lt;p&gt;Number of papers submitted and accepted to the &lt;em&gt;main research track&lt;/em&gt; of each 
-conference (without distinguishing between long and short papers, if both were 
-part of the main track).&lt;/p&gt;
+&lt;h5&gt;Submissions&lt;/h5&gt;
+
+&lt;p&gt;Number of papers submitted to the &lt;em&gt;main research track&lt;/em&gt;.
+&lt;strong&gt;Update:&lt;/strong&gt; For MSR this is the number of &lt;em&gt;full&lt;/em&gt; papers submitted to the 
+main research track. Thanks to &lt;a href=&quot;http://thomas-zimmermann.com&quot;&gt;Tom Zimmermann&lt;/a&gt;
+for the clarification.&lt;/p&gt;
 
 &lt;div id=&quot;container_sp&quot; style=&quot;min-width:310px; height:400px; margin:0 auto; width:800px;&quot;&gt;&lt;/div&gt;
+
+&lt;!-- (without distinguishing between long and short papers, if both were part of the main track). --&gt;
+
+&lt;h5&gt;Acceptance rates&lt;/h5&gt;
+
+&lt;p&gt;Ratio between the number of accepted full papers and the number of submissions.&lt;/p&gt;
 
 &lt;div id=&quot;container_ra&quot; style=&quot;min-width:310px; height:400px; margin:0 auto; width:800px;&quot;&gt;&lt;/div&gt;
 
