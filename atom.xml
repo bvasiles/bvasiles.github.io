@@ -4,7 +4,7 @@
  <title>Bogdan Vasilescu</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2015-04-29T10:40:54-07:00</updated>
+ <updated>2015-05-18T11:21:42+02:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -15,7 +15,7 @@
  <entry>
    <title>Conference Monitor</title>
    <link href="/2015/04/05/conference-monitor/"/>
-   <updated>2015-04-05T00:00:00-07:00</updated>
+   <updated>2015-04-05T00:00:00+02:00</updated>
    <id>/2015/04/05/conference-monitor</id>
    <content type="html">&lt;p&gt;Recently I started experimenting with &lt;a href=&quot;http://www.highcharts.com&quot;&gt;Highcharts&lt;/a&gt;
 to visualize &lt;a href=&quot;http://bvasiles.github.io/papers/scico13.pdf&quot;&gt;our conference metrics&lt;/a&gt; 
@@ -251,7 +251,7 @@ $(function () {
  <entry>
    <title>Gender and tenure diversity in GitHub teams</title>
    <link href="/2015/01/19/gender-tenure-diversity-github/"/>
-   <updated>2015-01-19T00:00:00-08:00</updated>
+   <updated>2015-01-19T00:00:00+01:00</updated>
    <id>/2015/01/19/gender-tenure-diversity-github</id>
    <content type="html">&lt;p&gt;Diversity in teams arises from any attribute that people use to differentiate
 themselves from others. 
@@ -351,7 +351,7 @@ female programmers will likely result in added overall value. &lt;/p&gt;
  <entry>
    <title>CHI'15 Press Release</title>
    <link href="/2015/01/19/chi-press/"/>
-   <updated>2015-01-19T00:00:00-08:00</updated>
+   <updated>2015-01-19T00:00:00+01:00</updated>
    <id>/2015/01/19/chi-press</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;Having higher gender and tenure diversity is associated with higher 
 productivity in &lt;a href=&quot;http://github.com&quot;&gt;GitHub&lt;/a&gt; teams&lt;/strong&gt;.&lt;/p&gt;
