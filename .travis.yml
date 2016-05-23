@@ -20,11 +20,11 @@ install:
   # Install Jekyll and dependencies
   - bundle install
 
-branches:
-  only:
-  - develop
+#branches:
+#  only:
+#  - develop
 
-script: bundle exec rake site:deploy --trace
+script: bundle exec rake site:deploy --quiet
 
 env:
   global:
