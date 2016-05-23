@@ -1,9 +1,13 @@
+source "https://rubygems.org"
+
+gem "jekyll"
+
 language: ruby
 
 rvm:
 - 2.1.1
 
-install:
+#install:
   # Install binary pandoc from Rstudio
   # To use Pandoc, uncomment the following
   # - export PATH="$HOME/pandoc:$PATH"
@@ -15,13 +19,13 @@ install:
   # - pandoc --version
   #
   # Install Jekyll and dependencies
-  - bundle install
+#  - bundle install
 
 branches:
   only:
   - develop
 
-script: bundle exec rake site:deploy --quiet
+script: ./script/cibuild
 
 env:
   global:

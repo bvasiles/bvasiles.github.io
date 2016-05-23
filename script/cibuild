@@ -1,0 +1,2 @@
+install: gem install jekyll
+script: bundle exec rake site:deploy --quiet
