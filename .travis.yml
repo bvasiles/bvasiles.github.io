@@ -3,6 +3,9 @@ language: ruby
 rvm:
 - 2.1.1
 
+before_install:
+ - chmod +x ./script/cibuild
+ 
 #install:
   # Install binary pandoc from Rstudio
   # To use Pandoc, uncomment the following
