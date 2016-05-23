@@ -24,7 +24,7 @@ branches:
   only:
   - develop
 
-script: bundle exec rake site:deploy --quiet
+script: bundle exec rake site:deploy --trace
 
 env:
   global:
