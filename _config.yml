@@ -51,7 +51,7 @@ destination: . #../EXAMPLE/
 # or "master" otherwise
 username: bvasiles
 #repo: bvasiles.github.io
-branch: source
+branch: develop
 
 #permalink: pretty
 #
