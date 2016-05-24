@@ -212,14 +212,15 @@ namespace :site do
 	#sh "echo 'git checkout #{SOURCE_BRANCH}'"
     sh "git checkout #{SOURCE_BRANCH}"
 
+    # Generate the site
+    sh "bundle exec jekyll build"
+
 	#sh "echo 'git fetch'"
 	#sh "git fetch"
 
     #sh "echo 'git checkout #{DESTINATION_BRANCH}'"
     Dir.chdir(CONFIG["destination"]) { sh "git checkout #{DESTINATION_BRANCH}" }
 
-    # Generate the site
-    sh "bundle exec jekyll build"
 
     # Commit and push to github
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
