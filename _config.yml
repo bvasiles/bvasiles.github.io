@@ -40,8 +40,8 @@ lsi: false
 pygments: true
 
 #relative_source: ../EXAMPLE/
-destination: ../_site/ #../EXAMPLE/
-
+#destination: ../_site/ #../EXAMPLE/
+#
 # Settings for deploy rake task
 # Username and repo of Github repo, e.g.
 # https://github.com/USERNAME/REPO.git
@@ -49,10 +49,10 @@ destination: ../_site/ #../EXAMPLE/
 # repo defaults to USERNAME.github.io
 # Branch defaults to "source" for USERNAME.github.io
 # or "master" otherwise
-username: bvasiles
+#username: bvasiles
 #repo: bvasiles.github.io
-branch: develop
-
+#branch: develop
+#
 #permalink: pretty
 #
 #paginate: 10
