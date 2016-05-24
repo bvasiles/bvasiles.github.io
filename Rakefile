@@ -207,7 +207,9 @@ namespace :site do
     # Make sure destination folder exists as git repo
     check_destination
 
+	sh "echo 'git checkout #{SOURCE_BRANCH}'"
     sh "git checkout #{SOURCE_BRANCH}"
+    sh "echo 'git checkout #{DESTINATION_BRANCH}'"
     Dir.chdir(CONFIG["destination"]) { sh "git checkout #{DESTINATION_BRANCH}" }
 
     # Generate the site
