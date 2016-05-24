@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<!--       Bogdan Vasilescu &middot; Welcome to my website! -->
+  <title>
+    
+       &middot; Bogdan Vasilescu
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="/public/css/bogdan.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+  <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+    var pageTracker = _gat._getTracker("UA-28938909-1");
+    pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+
+  <body class="theme-base-0d">
+
+    <div class="sidebar">
+  <!-- <div class="container sidebar-sticky"> -->
+  <div class="container">
+    <div class="sidebar-about">
+      <h1>
+<!-- 		<img src="/images/bogdan2014bw.jpg" alt="Bogdan Vasilescu" class="secondary-photo media-circle photo" width="150px" /> -->
+		<img class="displayed" src="/images/bogdan2014bw.jpg" alt="Bogdan Vasilescu" width="150px" />
+          Bogdan Vasilescu
+      </h1>
+      <p class="lead">
+		Computer Scientist, Postdoctoral Researcher at <a href="http://www.ucdavis.edu">UC Davis</a>.
+      </p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
+   
+      
+
+      
+      
+        
+          
+        
+      
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/blog/">Blog</a>
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/contact/">Contact</a>
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/publications/">Publications</a>
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/service/">Service</a>
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/talks/">Talks</a>
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/tools/">Tools</a>
+          
+        
+      
+
+    </nav>
+	<br><br><br>
+    <p>&copy; 2016. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="page">
+<!--   <h1 class="page-title"></h1> -->
+  <h3><a name="scalingup"></a>Scaling up distributed software development</h3>
+
+<p>The <em>pull-based model</em> is an innovation made popular by 
+<a href="http://github.com">GitHub</a>, to speed up and scale up distributed
+development: anyone can submit <em>pull request</em> contributions 
+(proposed changes) to any project. 
+Pull requests are reviewed by core developers (aka integrators) 
+and accepted only if deemed of sufficient quality and utility. 
+This low barrier to entry for newcomers, together with GitHub’s 
+scale (<a href="https://github.com/about">30 million projects</a>), means 
+that <font color="SlateGray"><em>developers have a great many projects to choose from</em></font> and 
+that <font color="SlateGray"><em>integrators have increasingly higher review loads</em></font>.</p>
+
+<h4><a name="onboarding"></a>Socialization is a precursor to developers joining a new project</h4>
+
+<p><img style="float: right;" src="../images/gh-network.jpg" alt="CI" width="40%"></p>
+
+<p>We have already seen in prior work that 
+<font color="SlateGray"><em>socializing is very important for
+advancement in open source software development</em></font> 
+(<a href="../papers/ese14.pdf">see our EMSE&#39;14 paper</a>):
+one ramps up their communication activity like never before 
+prior to being promoted to core developer status.
+But how do social connections and experience affect 
+people&#39;s migrations between projects, and their technical 
+contributions?</p>
+
+<p>We mined data for 1,200 prolific developers from GitHub, and 
+used statistical modeling to precisely delineate these factors.
+As expected, we found that <font color="SlateGray"><em>having past 
+social connections with project members is a precursor to 
+developers joining a new project</em></font>.
+Moreover, it is associated with
+<font color="SlateGray"><em>higher productivity</em></font>.
+Our models enable us to estimate precisely how 
+important each factor is
+(<a href="../papers/fse15onboarding.pdf">see our FSE&#39;15 paper</a>):</p>
+
+<ul>
+<li>Joining a new project in which there are some prior social 
+connections with existing members increases a developer&#39;s 
+chances for contribution above baseline in the first six
+months by 3.7% to 6.2%; similarly so for joining a project 
+with familiar languages.</li>
+<li>Beyond the first six months, 
+having prior experience with the languages of the project 
+and prior social connections with other members gives a 
+developer a great advantage in overall productivity, with 
+an increase by 29.5% to 54.3% over baseline.</li>
+<li>However, developers who join environments where they have 
+prior social connections but no prior language experience 
+are 9.6% less likely to have long-term productivity above 
+baseline.</li>
+</ul>
+
+<h4><a name="ci"></a>Continuous Integration (CI) speeds up the pull request process</h4>
+
+<p><img src="../images/ci.jpg" alt="CI" width="80%">
+To cope with high review loads, integrators can and do resort 
+to CI services such as <a href="http://travis-ci.org">Travis-CI</a>
+(<a href="../papers/msr15.pdf">see our MSR&#39;15 paper</a>). 
+CI attempts to automatically build and deploy the software 
+in a &quot;sandbox&quot;, and automatically run a collection of tests 
+when a pull request is received. 
+By automating these steps, a project can hope to gain both 
+productivity (more pull requests accepted) and quality (the 
+accepted pull requests are prescreened by the automation 
+provided by CI).
+Does CI actually help to speed up the pull request process 
+and to ensure higher quality code?</p>
+
+<p>We mined data from 246 GitHub projects that added the 
+Travis-CI functionality to their development process at 
+some point in their history.
+Using this data set, we built zero-inflated regression 
+models to compare activity before and after adoption of
+Travis-CI.
+We found that:</p>
+
+<ul>
+<li>After CI is added, <font color="SlateGray"><em>20% more pull 
+requests from core developers are accepted, and 26% fewer 
+submissions from non-core developers get rejected</em></font>. 
+This suggests that CI improves the handling of insider 
+pull requests, and has an overall positive effect on the 
+initial quality of outsider submissions.</li>
+<li>Despite the increased volume of pull requests accepted, 
+<font color="SlateGray"><em>introduction of CI is not associated 
+with any increase/decrease in user-reported bugs</em></font>, thus 
+suggesting that user-experienced quality is not negatively 
+affected. 
+We did see an <font color="SlateGray"><em>expected increase 
+in the number of bug reports by core developers in projects 
+that use CI of 48%</em></font>, which suggests that CI is 
+helping developers discover more defects.
+(<a href="../papers/fse15ci.pdf">see our FSE&#39;15 paper</a>)</li>
+</ul>
+
+<hr>
+
+<h3><a name="diversity"></a>Diversity</h3>
+
+<p>Due to largely meritocratic hiring, software teams can be 
+quite diverse, e.g., with respect to gender, cultural background, 
+and programming language preference. 
+However, women are still underrepresented in programming 
+(industry reports 16-18% female developers; open source 
+around 10%). 
+On social coding platforms, the situation is even worse: 
+in a <a href="http://github.com">GitHub</a> sample, I estimated 9% 
+female developers 
+(<a href="../papers/chi15.pdf">see our CHI&#39;15 paper</a> and 
+<a href="../papers/msr_data15.pdf">our MSR&#39;15 paper</a>) and on 
+<a href="http://stackoverflow.com">Stack Overflow</a> only 7% 
+(<a href="../papers/iwc13.pdf">see our IWC&#39;14 paper</a>). 
+Why are modern social coding platforms so exclusive? 
+Is it related to community design? 
+Is it an intrinsic characteristic of software teams? </p>
+
+<h4><a name="gendergh"></a>More diverse teams are more productive</h4>
+
+<p><img style="float: right;" src="../images/diversity1.jpg" width="35%">
+Using data from thousands of projects on GitHub, we 
+analyzed the relationships between team diversity, 
+productivity, and turnover using generalized linear 
+mixed-effects models (<a href="../papers/chi15.pdf">see our CHI&#39;15 paper</a>). 
+We found that <font color="SlateGray"><em>both gender 
+and tenure diversity are positive and significant 
+predictors of productivity</em></font>: 
+teams that are more balanced in terms of gender and 
+seniority have higher productivity rates. </p>
+
+<p>Through a large-scale survey (800+ developers), we 
+found that respondents value diversity for their team&#39;s 
+creativity and problem solving effectiveness. 
+Despite these many positives, a handful of female 
+respondents reported frustration and disengagement 
+from a project due to gender-related incidents
+(<a href="../papers/chase15.pdf">see our CHASE&#39;15 paper</a>).</p>
+
+<h4><a name="genderso"></a>Social coding comes at a social cost</h4>
+
+<p><img style="float: right;" src="../images/MenWorkingRoadSign.jpg" width="40%">
+We compared activity on Stack Overflow, a gamified Q&amp;A 
+platform where people are rewarded with reputation 
+points and badges, with that on traditional mailing 
+lists. 
+We found that <font color="SlateGray"><em>on Stack Overflow 
+women disengage sooner than men, although relative to 
+their tenure they are comparably active</em></font>. 
+We predict that the achievement-oriented nature of 
+Stack Overflow, cultivated by the many gamification 
+elements in its design, is creating an environment 
+hostile to women, driving them away from participation.
+(<a href="../papers/iwc13.pdf">see our IWC&#39;14 paper</a>)</p>
+
+<hr>
+
+<!--### Signaling
+
+<img src="../images/signaling.jpg" alt="CI" width="80%">
+
+---
+
+### Migration to social Q&A websites 
+
+<img src="../images/ml-se.jpg" alt="CI" width="80%">
+
+---
+-->
+
+</div>
+
+    
+          
+
+
+    </div>
+  </body>      
+</html>

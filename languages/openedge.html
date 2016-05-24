@@ -1,0 +1,403 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>OpenEdge ABL</title>
+<style type="text/css">
+<!--
+@import url("style.css");
+-->
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28938909-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<div align=center>
+<table id="arm-data">
+    <thead>
+    	<tr>
+        	<th scope="col">Index</th>
+            <th scope="col">Left</th>
+			<th scope="col">Right</th>
+			<th scope="col">Support</th>
+			<th scope="col">Confidence</th>
+			<th scope="col">Lift</th>
+			<th scope="col">nBoth</th>
+			<th scope="col">nLeft-nBoth</th>
+			<th scope="col">nRight-nBoth</th>
+			<th scope="col">nExamples-nLeft-nRight+nBoth</th>
+			<th scope="col">p-value<sup><a href="#1">1</a></sup> Fisher's test</th>
+			<th scope="col">Significant at 0.05</th>
+        </tr>
+    </thead>
+	<tfoot>
+		<tr>
+			<td colspan="12"><sup><a name="1">1</a></sup> First 12 digits</td>
+		</tr>
+	</tfoot>
+    <tbody>
+	     <tr>
+        	<td>21821</td>
+            <td>OpenEdge ABL</td>
+			<td>Ant</td>
+			<td>0.00000739</td>
+			<td>0.13636000</td>
+			<td>22.710</td>
+			<td>3</td>
+			<td>19</td>
+			<td>2436</td>
+			<td>403731</td>
+			<td>0.000305733184</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>13700</td>
+            <td>OpenEdge ABL</td>
+			<td>Assembly</td>
+			<td>0.00000492</td>
+			<td>0.09091000</td>
+			<td>11.954</td>
+			<td>2</td>
+			<td>20</td>
+			<td>3087</td>
+			<td>403080</td>
+			<td>0.012072582789</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15084</td>
+            <td>OpenEdge ABL</td>
+			<td>Bash</td>
+			<td>0.00000739</td>
+			<td>0.13636000</td>
+			<td>8.862</td>
+			<td>3</td>
+			<td>19</td>
+			<td>6247</td>
+			<td>399920</td>
+			<td>0.004505262986</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15334</td>
+            <td>OpenEdge ABL</td>
+			<td>C</td>
+			<td>0.00001231</td>
+			<td>0.22727000</td>
+			<td>4.240</td>
+			<td>5</td>
+			<td>17</td>
+			<td>21769</td>
+			<td>384398</td>
+			<td>0.005406384841</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>20018</td>
+            <td>OpenEdge ABL</td>
+			<td>C#</td>
+			<td>0.00003693</td>
+			<td>0.68182000</td>
+			<td>4.834</td>
+			<td>15</td>
+			<td>7</td>
+			<td>57282</td>
+			<td>348885</td>
+			<td>0.000000011014</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>8021</td>
+            <td>OpenEdge ABL</td>
+			<td>C++</td>
+			<td>0.00001723</td>
+			<td>0.31818000</td>
+			<td>3.974</td>
+			<td>7</td>
+			<td>15</td>
+			<td>32511</td>
+			<td>373656</td>
+			<td>0.001220887765</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21842</td>
+            <td>OpenEdge ABL</td>
+			<td>CSS</td>
+			<td>0.00001231</td>
+			<td>0.22727000</td>
+			<td>3.652</td>
+			<td>5</td>
+			<td>17</td>
+			<td>25273</td>
+			<td>380894</td>
+			<td>0.010061250407</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21865</td>
+            <td>OpenEdge ABL</td>
+			<td>Delphi/Object Pascal</td>
+			<td>0.00000492</td>
+			<td>0.09091000</td>
+			<td>10.632</td>
+			<td>2</td>
+			<td>20</td>
+			<td>3471</td>
+			<td>402696</td>
+			<td>0.015071527553</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21837</td>
+            <td>OpenEdge ABL</td>
+			<td>HTML</td>
+			<td>0.00001477</td>
+			<td>0.27273000</td>
+			<td>3.311</td>
+			<td>6</td>
+			<td>16</td>
+			<td>33452</td>
+			<td>372715</td>
+			<td>0.007332358299</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>18085</td>
+            <td>OpenEdge ABL</td>
+			<td>Java</td>
+			<td>0.00001723</td>
+			<td>0.31818000</td>
+			<td>2.323</td>
+			<td>7</td>
+			<td>15</td>
+			<td>55640</td>
+			<td>350527</td>
+			<td>0.023537972880</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>14350</td>
+            <td>OpenEdge ABL</td>
+			<td>JavaScript</td>
+			<td>0.00001970</td>
+			<td>0.36364000</td>
+			<td>2.740</td>
+			<td>8</td>
+			<td>14</td>
+			<td>53901</td>
+			<td>352266</td>
+			<td>0.005426972164</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>12104</td>
+            <td>OpenEdge ABL</td>
+			<td>Lua</td>
+			<td>0.00000492</td>
+			<td>0.09091000</td>
+			<td>32.794</td>
+			<td>2</td>
+			<td>20</td>
+			<td>1124</td>
+			<td>405043</td>
+			<td>0.001709401806</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>18659</td>
+            <td>OpenEdge ABL</td>
+			<td>Perl</td>
+			<td>0.00000492</td>
+			<td>0.09091000</td>
+			<td>5.316</td>
+			<td>2</td>
+			<td>20</td>
+			<td>6944</td>
+			<td>399223</td>
+			<td>0.053875230668</td>
+			<td></td>
+        </tr>
+		<tr>
+        	<td>21853</td>
+            <td>OpenEdge ABL</td>
+			<td>PHP</td>
+			<td>0.00001477</td>
+			<td>0.27273000</td>
+			<td>2.165</td>
+			<td>6</td>
+			<td>16</td>
+			<td>51170</td>
+			<td>354997</td>
+			<td>0.049923695732</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>5011</td>
+            <td>OpenEdge ABL</td>
+			<td>PL/SQL</td>
+			<td>0.00000739</td>
+			<td>0.13636000</td>
+			<td>36.273</td>
+			<td>3</td>
+			<td>19</td>
+			<td>1524</td>
+			<td>404643</td>
+			<td>0.000077408643</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>18521</td>
+            <td>OpenEdge ABL</td>
+			<td>Progress</td>
+			<td>0.00002708</td>
+			<td>0.50000000</td>
+			<td>5641.514</td>
+			<td>11</td>
+			<td>11</td>
+			<td>25</td>
+			<td>406142</td>
+			<td>0.000000000000</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>5389</td>
+            <td>OpenEdge ABL</td>
+			<td>Python</td>
+			<td>0.00000985</td>
+			<td>0.18182000</td>
+			<td>2.502</td>
+			<td>4</td>
+			<td>18</td>
+			<td>29508</td>
+			<td>376659</td>
+			<td>0.071190300792</td>
+			<td></td>
+        </tr>
+		<tr>
+        	<td>20468</td>
+            <td>OpenEdge ABL</td>
+			<td>Ruby</td>
+			<td>0.00001231</td>
+			<td>0.22727000</td>
+			<td>6.846</td>
+			<td>5</td>
+			<td>17</td>
+			<td>13479</td>
+			<td>392688</td>
+			<td>0.000660716332</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21850</td>
+            <td>OpenEdge ABL</td>
+			<td>SQL</td>
+			<td>0.00002462</td>
+			<td>0.45455000</td>
+			<td>6.033</td>
+			<td>10</td>
+			<td>12</td>
+			<td>30594</td>
+			<td>375573</td>
+			<td>0.000001630220</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21856</td>
+            <td>OpenEdge ABL</td>
+			<td>Transact-SQL</td>
+			<td>0.00000739</td>
+			<td>0.13636000</td>
+			<td>9.113</td>
+			<td>3</td>
+			<td>19</td>
+			<td>6075</td>
+			<td>400092</td>
+			<td>0.004168398931</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>21742</td>
+            <td>OpenEdge ABL</td>
+			<td>Visual Basic</td>
+			<td>0.00000985</td>
+			<td>0.18182000</td>
+			<td>28.882</td>
+			<td>4</td>
+			<td>18</td>
+			<td>2553</td>
+			<td>403614</td>
+			<td>0.000010468282</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>15759</td>
+            <td>OpenEdge ABL</td>
+			<td>Visual Basic .NET</td>
+			<td>0.00001231</td>
+			<td>0.22727000</td>
+			<td>9.269</td>
+			<td>5</td>
+			<td>17</td>
+			<td>9955</td>
+			<td>396212</td>
+			<td>0.000164491435</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>20156</td>
+            <td>OpenEdge ABL</td>
+			<td>XAML</td>
+			<td>0.00000492</td>
+			<td>0.09091000</td>
+			<td>11.183</td>
+			<td>2</td>
+			<td>20</td>
+			<td>3300</td>
+			<td>402867</td>
+			<td>0.013699785498</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>13445</td>
+            <td>OpenEdge ABL</td>
+			<td>XML</td>
+			<td>0.00001723</td>
+			<td>0.31818000</td>
+			<td>6.435</td>
+			<td>7</td>
+			<td>15</td>
+			<td>20076</td>
+			<td>386091</td>
+			<td>0.000063624472</td>
+			<td>yes</td>
+        </tr>
+		<tr>
+        	<td>19688</td>
+            <td>OpenEdge ABL</td>
+			<td>Xpath</td>
+			<td>0.00000739</td>
+			<td>0.13636000</td>
+			<td>19.106</td>
+			<td>3</td>
+			<td>19</td>
+			<td>2896</td>
+			<td>403271</td>
+			<td>0.000505284114</td>
+			<td>yes</td>
+        </tr>
+		
+	</tbody>
+</table>
+</div>
