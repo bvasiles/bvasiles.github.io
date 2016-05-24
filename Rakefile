@@ -205,15 +205,17 @@ namespace :site do
     end
 
     # Make sure destination folder exists as git repo
-    check_destination
+    #check_destination
+    sh "git clone https://#{ENV['GIT_NAME']}:#{ENV['GH_TOKEN']}@github.com/#{USERNAME}/#{REPO}.git"
 
-	sh "echo 'git checkout #{SOURCE_BRANCH}'"
+	sh "cd '#{REPO}'"
+	#sh "echo 'git checkout #{SOURCE_BRANCH}'"
     sh "git checkout #{SOURCE_BRANCH}"
 
-	sh "echo 'git fetch'"
-	sh "git fetch"
+	#sh "echo 'git fetch'"
+	#sh "git fetch"
 
-    sh "echo 'git checkout #{DESTINATION_BRANCH}'"
+    #sh "echo 'git checkout #{DESTINATION_BRANCH}'"
     Dir.chdir(CONFIG["destination"]) { sh "git checkout #{DESTINATION_BRANCH}" }
 
     # Generate the site

@@ -40,7 +40,7 @@ lsi: false
 pygments: true
 
 #relative_source: ../EXAMPLE/
-destination: . #../EXAMPLE/
+destination: _site #../EXAMPLE/
 
 # Settings for deploy rake task
 # Username and repo of Github repo, e.g.
