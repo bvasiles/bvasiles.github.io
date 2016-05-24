@@ -14,7 +14,13 @@ install:
 #  only:
 #  - develop
 
-script: bundle exec rake site:deploy --quiet
+script:
+  - bundle exec rake deploy
+  #- bundle exec jekyll build #rake site:deploy --quiet
+
+#after_success:
+#- git clone http://github.com/bvasiles/bvasiles.github.io
+#- cd bvasiles.github.io.git
 
 env:
   global:
