@@ -1,0 +1,116 @@
+.secondary-photo {
+    display: block;
+    width: 80%;
+    margin-bottom: 6%
+}
+
+.media-circle {
+    border-radius: 100%
+}
+
+.sidebar {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: rgba(255,255,255,.5);
+  background-color: #202020;
+}
+@media (min-width: 48em) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 20rem;
+    text-align: left;
+  }
+}
+
+/* About section */
+.sidebar-about h1 {
+  color: #fff;
+  margin-top: 0;
+  font-family: "Abril", serif;
+  font-size: 1.9rem;
+}
+
+ol.bibliography {
+  line-height: 1.2;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+  font-size: 0.85rem;
+}
+
+b.ref{
+  background:AntiqueWhite;
+}
+
+li {
+	margin-top:4px;
+    margin-bottom:4px;
+}
+
+div.refs-row {
+  font-size: 0.85rem;
+}
+
+span.refs-acceptance {
+color: #6a9fb5;
+}
+
+div.reference {
+	line-height: 1;
+	margin-bottom: 0.3em;
+}
+
+.bibtex-entry {
+	font-size: 0.85rem;
+}
+
+div.bibtex pre { 
+	font-size: 75%; 
+	overflow: auto;  
+	width: 100%; 
+	line-height: 1;
+}
+
+@media (min-width: 48em) {
+  .content {
+    max-width: 43rem;
+  }
+}
+
+.highlighted { 
+	background:yellow 
+}
+
+img.displayed{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+html {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif; 
+}
+@media (min-width: 48em) {
+  html {
+    line-height: 1.2;
+  }
+}
+@media (min-width: 58em) {
+  html {
+    line-height: 1.2;
+  }
+}
+
+ul {
+  line-height: 1.2;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+  font-size: 0.95rem;
+}
+
+div.talk {
+	line-height: 1.2;
+	margin-bottom: 0.3em;
+	font-size: 0.9rem;
+}
