@@ -5,16 +5,16 @@ title: Contact
 
 ### Bogdan Vasilescu
 
-    Computer Science,
-    University of California,
-    3029 Kemper Hall,
-    One Shields Avenue,
-    Davis, CA 95616-5294,
+    Institute for Software Research,
+    School of Computer Science,
+    Carnegie Mellon University,
+    5000 Forbes Avenue
+	Pittsburgh, PA 15213
     USA
 
 ### Email
 
-    vasilescu where? ucdavis edu
+    vasilescu where? cmu edu
 
 ### Others
 
