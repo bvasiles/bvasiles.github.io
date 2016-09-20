@@ -3,6 +3,30 @@ layout: page
 title: Talks
 ---
 
+#### 2016
+
+- <div class="talk">
+	<span class="refs-link"><a href="
+	/slides/icse16talk.pdf
+	">
+	The Sky Is Not The Limit: Multitasking Across GitHub Projects
+	</a></span>
+	<div class="csl-block"><span class="talk">
+	ICSE (paper presentation) (Austin, TX, USA)
+	</span></div>
+</div>
+
+- <div class="talk">
+	<span class="refs-link"><a href="
+	/slides/jobtalk.pdf
+	">
+	Lessons in Social Coding: Software Analytics in the Age of GitHub
+	</a></span>
+	<div class="csl-block"><span class="talk">
+	Job talk
+	</span></div>
+</div>
+
 #### 2015
 
 - <div class="talk">
