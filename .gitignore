@@ -3,51 +3,16 @@ images/b10e06ea1b6e33b9b7a925906cd84d05.jpg
 
 vendor
 
-
 *.ini
 
 images/.picasaoriginals/bogdan2015.jpg
 
-<<<<<<< HEAD
 _site/*
 
 *.lock
 
-_site/2015/01/19/chi-press/index.html
-
-_site/2015/01/19/chi-press/index.html
-
-_site/2015/01/19/gender-tenure-diversity-github/index.html
-
-_site/2015/04/05/conference-monitor/index.html
-
-_site/404.html
-
-_site/tools/index.html
-
-_site/talks/index.html
-
-_site/2015/01/19/chi-press/index.html
-
-_site/2015/01/19/gender-tenure-diversity-github/index.html
-
-_site/2015/04/05/conference-monitor/index.html
-
-_site/404.html
-
-_site/atom.xml
-
-_site/blog/index.html
-
-_site/contact/index.html
-
-_site/index.html
-
-_site/talks/index.html
-=======
 _includes/.DS_Store
 
 _posts/.DS_Store
 
 .DS_Store
->>>>>>> origin/develop
