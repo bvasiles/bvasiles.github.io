@@ -49,10 +49,10 @@ pygments: true
 # repo defaults to USERNAME.github.io
 # Branch defaults to "source" for USERNAME.github.io
 # or "master" otherwise
-#username: bvasiles
-#repo: bvasiles.github.io
-#branch: develop
-#
+username: bvasiles
+repo: bvasiles.github.io
+branch: develop
+
 #permalink: pretty
 #
 #paginate: 10
