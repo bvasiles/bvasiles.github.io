@@ -8,6 +8,7 @@ vendor
 
 images/.picasaoriginals/bogdan2015.jpg
 
+<<<<<<< HEAD
 _site/*
 
 *.lock
@@ -43,3 +44,10 @@ _site/contact/index.html
 _site/index.html
 
 _site/talks/index.html
+=======
+_includes/.DS_Store
+
+_posts/.DS_Store
+
+.DS_Store
+>>>>>>> origin/develop
