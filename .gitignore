@@ -7,3 +7,5 @@ vendor
 *.ini
 
 images/.picasaoriginals/bogdan2015.jpg
+
+_site/*
