@@ -3,6 +3,20 @@ layout: page
 title: Talks
 ---
 
+#### 2017
+
+- <div class="talk">
+	<span class="refs-link"><a href="
+	/slides/presenting-structure-story-support.pdf
+	">
+	Presenting Research: Structure, Story, and Support
+	</a></span>
+	<div class="csl-block"><span class="talk">
+	CMU internal
+	</span></div>
+</div>
+
+
 #### 2016
 
 - <div class="talk">
