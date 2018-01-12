@@ -6,10 +6,11 @@ title: Contact
 ### Bogdan Vasilescu
 
     Institute for Software Research,
+    Room: Wean Hall 5115,
     School of Computer Science,
     Carnegie Mellon University,
     5000 Forbes Avenue
-	Pittsburgh, PA 15213
+    Pittsburgh, PA 15213
     USA
 
 ### Email

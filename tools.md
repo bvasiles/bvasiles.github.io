@@ -3,6 +3,15 @@ layout: page
 title: Tools
 ---
 
+### JSNaughty
+
+JavaScript reverse minifier using statistical machine translation.
+
+Tool [here](http://jsnaughty.org).
+
+Source code [here](https://github.com/bvasiles/jsnaughty).
+
+Papers: [ESEC/FSE'17](http://cmustrudel.github.io/papers/fse17jsnaughty.pdf).
 
 ### GenderComputer
 

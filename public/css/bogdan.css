@@ -114,3 +114,5 @@ div.talk {
 	margin-bottom: 0.3em;
 	font-size: 0.9rem;
 }
+
+#responsive-image { width: 50%; height: auto; } 
