@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Publications
+redirect: https://cmustrudel.github.io/publications/
 ---
 
 ### Refereed journal articles
