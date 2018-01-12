@@ -5,6 +5,7 @@ sitemap: false
 redirect_to: https://cmustrudel.github.io/publications/
 ---
 
+<!-- 
 ### Refereed journal articles
 {% bibliography --query @article[pubcls=0] %}
 
@@ -16,4 +17,5 @@ redirect_to: https://cmustrudel.github.io/publications/
 
 ### Theses
 {% bibliography --query @mastersthesis @phdthesis %}
+ -->
 
