@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: redirected
 title: Publications
-redirect: https://cmustrudel.github.io/publications/
+sitemap: false
+redirect_to: https://cmustrudel.github.io/publications/
 ---
 
 ### Refereed journal articles
