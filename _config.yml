@@ -150,9 +150,9 @@ author:
 # repo defaults to USERNAME.github.io
 # Branch defaults to "source" for USERNAME.github.io
 # or "master" otherwise
-#username: bvasiles
-#repo: https://github.com/bvasiles/bvasiles.github.io.git
-#branch: develop
+username: bvasiles
+repo: https://github.com/bvasiles/bvasiles.github.io.git
+branch: develop
 
 
 # Site Footer
