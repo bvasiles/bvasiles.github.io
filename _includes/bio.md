@@ -14,7 +14,7 @@ have been serving on program committees for the major software engineering venue
 thanks for the [Distinguished Reviewer Award](http://www.ase2018.com/?p=awards) at ASE 2018!),
 am an Associate Editor for the [ACM Transactions on Software Engineering and Methodology](https://dl.acm.org/journal/tosem/editorial-board#associate-editors),
 and am co-chairing the [SIGSOFT Initiative on Data-driven Introspection](https://www.sigsoft.org/annualrpt/2019annualreport.html),
-among others.
+among [others](/service/).
 
 On the internets I'm sometimes referred to as a *"[prominent female professor from 
 a gender studies department, that no one ever audits and that gets to peer review 
