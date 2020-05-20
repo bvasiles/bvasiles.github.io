@@ -15,18 +15,24 @@ gem "github-pages", group: :jekyll_plugins
 # To upgrade, run `bundle update`.
 
 gem "jekyll"
-gem "minimal-mistakes-jekyll"
-
-# The following plugins are automatically loaded by the theme-gem:
-#   gem "jekyll-paginate"
-#   gem "jekyll-sitemap"
-#   gem "jekyll-gist"
-#   gem "jekyll-feed"
-#   gem "jekyll-include-cache"
-#
-# If you have any other plugins, put them here!
-group :jekyll_plugins do
 gem "rake", "~> 10.1.1"
+# gem "github-pages", "~> 15"
 gem "rake-jekyll"
-# gem "jekyll-scholar"
-end
+gem 'jekyll-regex-replace'
+# gem 'jekyll-scholar', '~> 5.9', '>= 5.9.1'
+
+# gem "minimal-mistakes-jekyll"
+# 
+# # The following plugins are automatically loaded by the theme-gem:
+# #   gem "jekyll-paginate"
+# #   gem "jekyll-sitemap"
+# #   gem "jekyll-gist"
+# #   gem "jekyll-feed"
+# #   gem "jekyll-include-cache"
+# #
+# # If you have any other plugins, put them here!
+# group :jekyll_plugins do
+# gem "rake", "~> 10.1.1"
+# gem "rake-jekyll"
+# # gem "jekyll-scholar"
+# end
