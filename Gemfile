@@ -21,7 +21,7 @@ gem "rake-jekyll"
 gem 'jekyll-regex-replace'
 # gem 'jekyll-scholar', '~> 5.9', '>= 5.9.1'
 
-# gem "minimal-mistakes-jekyll"
+gem "minimal-mistakes-jekyll"
 # 
 # # The following plugins are automatically loaded by the theme-gem:
 # #   gem "jekyll-paginate"
