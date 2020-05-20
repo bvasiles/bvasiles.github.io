@@ -15,7 +15,7 @@ gem "github-pages", group: :jekyll_plugins
 # To upgrade, run `bundle update`.
 
 gem "jekyll"
-gem "rake", "~> 10.1.1"
+gem "rake"
 # gem "github-pages", "~> 15"
 gem "rake-jekyll"
 gem 'jekyll-regex-replace'
