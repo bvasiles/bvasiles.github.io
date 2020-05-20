@@ -1,347 +1,505 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.19.2 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
   <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
 
-  <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<!-- begin _includes/seo.html --><title>Talks - Bogdan Vasilescu’s homepage</title>
+<meta name="description" content="Bogdan Vasilescu’s homepage at Carnegie Mellon University ">
 
-<!--       Bogdan Vasilescu &middot; Welcome to my website! -->
-  <title>
+
+  <meta name="author" content="Bogdan Vasilescu">
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Bogdan Vasilescu's homepage">
+<meta property="og:title" content="Talks">
+<meta property="og:url" content="https://bvasiles.github.io/talks/">
+
+
+  <meta property="og:description" content="Bogdan Vasilescu’s homepage at Carnegie Mellon University ">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://bvasiles.github.io/talks/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
     
-      Talks &middot; Bogdan Vasilescu
+      "@type": "Person",
+      "name": "Bogdan Vasilescu",
+      "url": "https://bvasiles.github.io/"
     
-  </title>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="/public/css/poole.css">
-  <link rel="stylesheet" href="/public/css/syntax.css">
-  <link rel="stylesheet" href="/public/css/hyde.css">
-  <link rel="stylesheet" href="/public/css/bogdan.css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
-
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
-                                 <link rel="shortcut icon" href="/public/favicon.ico">
-
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-</head>
-
-  <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-    var pageTracker = _gat._getTracker("UA-28938909-1");
-    pageTracker._trackPageview();
-} catch(err) {}
+  }
 </script>
 
 
-  <body class="theme-base-0d">
 
-    <div class="sidebar">
-  <!-- <div class="container sidebar-sticky"> -->
-  <div class="container">
-    <div class="sidebar-about">
-      <h1>
-<!-- 		<img src="/images/bogdan2014bw.jpg" alt="Bogdan Vasilescu" class="secondary-photo media-circle photo" width="150px" /> -->
-		<img class="displayed" src="/images/bogdan2016f.jpg" alt="Bogdan Vasilescu" width="200px" />
-          Bogdan Vasilescu
-      </h1>
-      <p class="lead">
-		Computer Scientist, Assistant Professor at <a href="http://www.cmu.edu">CMU</a>.
-      </p>
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Bogdan Vasilescu's homepage Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/academicons.min.css">
+
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/strudel-logo-top-white.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+           
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="/talks/">Talks</a>
+            </li><li class="masthead__menu-item">
+              <a href="/research/">Research</a>
+            </li><li class="masthead__menu-item">
+              <a href="/teaching/">Teaching</a>
+            </li><li class="masthead__menu-item">
+              <a href="/service/">Service</a>
+            </li><li class="masthead__menu-item">
+              <a href="/publications/">Publications</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog/">Blog</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
     </div>
-
-    <nav class="sidebar-nav">
-      <a class="sidebar-nav-item" href="/">Home</a>
-   
-      
-
-      
-      
-        
-          
-          
-        
-      
-        
-      
-        
-          
-            <a class="sidebar-nav-item" href="/blog/">Blog</a>
-          
-          
-        
-      
-        
-          
-            <a class="sidebar-nav-item" href="/contact/">Contact</a>
-          
-          
-        
-      
-        
-          
-          
-        
-      
-        
-      
-        
-          
-          
-            <a class="sidebar-nav-item" href="/publications/">Publications</a>
-          
-        
-      
-        
-          
-            <a class="sidebar-nav-item" href="/service/">Service</a>
-          
-          
-        
-      
-        
-          
-            <a class="sidebar-nav-item active" href="/talks/">Talks</a>
-          
-          
-        
-      
-        
-          
-            <a class="sidebar-nav-item" href="/teaching/">Teaching</a>
-          
-          
-        
-      
-        
-          
-            <a class="sidebar-nav-item" href="/tools/">Tools</a>
-          
-          
-        
-      
-
-    </nav>
-	<br><br><br>
-    <p>&copy; 2018. All rights reserved.</p>
   </div>
 </div>
 
 
-    <div class="content container">
-      <div class="page">
-<!--   <h1 class="page-title">Talks</h1> -->
-  <h4>2017</h4>
+    <div class="initial-content">
+      
 
-<ul>
-<li><div class="talk">
-<span class="refs-link"><a href="
-/slides/presenting-structure-story-support.pdf
-">
-Presenting Research: Structure, Story, and Support
-</a></span>
-<div class="csl-block"><span class="talk">
-CMU internal
-</span></div>
-</div></li>
-</ul>
 
-<h4>2016</h4>
 
-<ul>
-<li><div class="talk">
-<span class="refs-link"><a href="
-/slides/icse16talk.pdf
-">
-The Sky Is Not The Limit: Multitasking Across GitHub Projects
-</a></span>
-<div class="csl-block"><span class="talk">
-ICSE (paper presentation) (Austin, TX, USA)
-</span></div>
-</div></li>
-<li><div class="talk">
-<span class="refs-link"><a href="
-/slides/jobtalk.pdf
-">
-Lessons in Social Coding: Software Analytics in the Age of GitHub
-</a></span>
-<div class="csl-block"><span class="talk">
-Job talk
-</span></div>
-</div></li>
-</ul>
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
 
-<h4>2015</h4>
 
-<ul>
-<li><div class="talk">
-<span class="refs-link"><a href="
-/slides/fse15ci.pdf
-">
-Quality and Productivity Outcomes Relating to Continuous Integration in GitHub
-</a></span>
-<div class="csl-block"><span class="talk">
-FSE (paper presentation) (Bergamo, Italy)
-</span></div>
-</div></li>
-<li><div class="talk">
-<span class="refs-link"><a href="
-http://research.microsoft.com/apps/video/default.aspx?id=249813&l=i
-">
-Of Teams and Automation: Lessons in Social Coding from GitHub
-</a></span>
-<div class="csl-block"><span class="talk">
-Microsoft Research (invited talk) (Redmond, WA, USA)
-</span></div>
-</div></li>
-<li><div class="talk">
-<span class="refs-link"><a href="
-/slides/msr15_short.pdf
-">
-Wait For It: Determinants of Pull Request Evaluation Latency on GitHub
-</a></span>
-<div class="csl-block"><span class="talk">
-MSR (paper presentation) (Florence, Italy)
-</span></div>
-</div></li>
-<li><div class="talk">
-<span class="refs-link"><a href="
-/slides/msr15_data.pdf
-">
-A Data Set for Social Diversity Studies of GitHub Teams
-</a></span>
-<div class="csl-block"><span class="talk">
-MSR (paper presentation) (Florence, Italy)
-</span></div>
-</div></li>
-<li><div class="talk">
-<span class="refs-link"><a href="
-/slides/chase15.pdf
-">
-Perceptions of Diversity on GitHub: A User Survey
-</a></span>
-<div class="csl-block"><span class="talk">
-CHASE (paper presentation) (Florence, Italy)
-</span></div>
-</div></li>
-<li><div class="talk">
-<span class="refs-link"><a href="
-/slides/chi15.pdf
-">
-Gender and tenure diversity in GitHub teams
-</a></span>
-<div class="csl-block"><span class="talk">
-CHI (paper presentation) (Seoul, South Korea)
-</span></div>
-</div></li>
-</ul>
+<div itemscope itemtype="https://schema.org/Person">
 
-<h4>2014</h4>
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/bogdan-2019.jpg" alt="Bogdan Vasilescu" itemprop="image">
+      
+    </div>
+  
 
-<ul>
-<li><div class="talk">
-<span class="refs-link"><a href="
-http://youtu.be/-rh0IJxagHI
-">
-Social aspects of collaboration in online software communities
-</a></span>
-<div class="csl-block"><span class="talk">
-TU/e (PhD defence) (Eindhoven, The Netherlands)
-</span></div>
-</div></li>
-<li><div class="talk">
-<span class="refs-link"><a href="
-/slides/icsme14era.pdf
-">
-Continuous integration in a social-coding world: Empirical evidence from GitHub
-</a></span>
-<div class="csl-block"><span class="talk">
-ICSME (paper presentation) (Victoria, BC, Canada)
-</span></div>
-</div></li>
-<li><div class="talk">
-<span class="refs-link"><a href="
-/slides/cscwdoc14.pdf
-">
-Software developers are humans, too!
-</a></span>
-<div class="csl-block"><span class="talk">
-CSCW Doctoral Colloquium (Baltimore, MD, USA)
-</span></div>
-</div></li>
-<li><div class="talk">
-<span class="refs-link"><a href="
-/slides/cscw14.pdf
-">
-How social Q&A sites are changing knowledge sharing in open source software communities
-</a></span>
-<div class="csl-block"><span class="talk">
-CSCW (paper presentation) (Baltimore, MD, USA)
-</span></div>
-</div></li>
-</ul>
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Bogdan Vasilescu</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Computer Scientist, Assistant Professor at <a href="http://www.cmu.edu/">CMU</a></p>
 
-<h4>2013</h4>
+      </div>
+    
+  </div>
 
-<ul>
-<li><div class="talk">
-<span class="refs-link"><a href="
-/slides/socialcom13.pdf
-">
-Stack Overflow and GitHub: Associations between software development and crowdsourced knowledge
-</a></span>
-<div class="csl-block"><span class="talk">
-Social Computing (paper presentation) (Washington D.C., USA)
-</span></div>
-</div></li>
-<li><div class="talk">
-<span class="refs-link"><a href="
-/slides/socinfo13.pdf
-">
-The Babel of software development: Linguistic diversity in Open Source
-</a></span>
-<div class="csl-block"><span class="talk">
-SocInfo (paper presentation) (Kyoto, Japan)
-</span></div>
-</div></li>
-<li><div class="talk">
-<span class="refs-link"><a href="
-/slides/msr2013.pdf
-">
-A historical dataset of software engineering conferences
-</a></span>
-<div class="csl-block"><span class="talk">
-MSR (paper presentation) (San Francisco, CA, USA)
-</span></div>
-</div></li>
-<li><div class="talk">
-<span class="refs-link"><a href="
-/slides/msr2013.pdf
-">
-Gender, representation and online participation: A quantitative study of Stack Overflow
-</a></span>
-<div class="csl-block"><span class="talk">
-Social Informatics (paper presentation) (Washington D.C., USA)
-</span></div>
-</div></li>
-</ul>
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Contact</button>
+    <ul class="author__urls social-icons">
+      
 
+      
+        
+          
+            <li><a href="https://map.concept3d.com/?id=192#!m/15801" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-university" aria-hidden="true"></i><span class="label">Wean Hall 5115</span></a></li>
+          
+        
+          
+            <li><a href="" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-phone" aria-hidden="true"></i><span class="label">(412) 268-1048</span></a></li>
+          
+        
+          
+            <li><a href="mailto:vasilescu@cmu.edu" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/b_vasilescu" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/bvasiles" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://scholar.google.com/citations?user=bcXjlqYAAAAJ&hl=en" rel="nofollow noopener noreferrer"><i class="ai ai-fw ai-google-scholar" aria-hidden="true"></i><span class="label">Google Scholar</span></a></li>
+          
+        
+          
+            <li><a href="http://dblp.uni-trier.de/pers/hd/v/Vasilescu:Bogdan" rel="nofollow noopener noreferrer"><i class="ai ai-fw ai-dblp" aria-hidden="true"></i><span class="label">DBLP</span></a></li>
+          
+        
+          
+            <li><a href="https://cmustrudel.github.io" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">STRUDEL lab</span></a></li>
+          
+        
+          
+            <li><a href="" rel="nofollow noopener noreferrer"><i class="F" aria-hidden="true"></i><span class="label"></span></a></li>
+          
+        
+          
+            <li><a href="" rel="nofollow noopener noreferrer"><i class="F" aria-hidden="true"></i><span class="label"><b>Admin:</b></span></a></li>
+          
+        
+          
+            <li><a href="" rel="nofollow noopener noreferrer"><i class="F" aria-hidden="true"></i><span class="label">Dabney Schlea</span></a></li>
+          
+        
+          
+            <li><a href="https://map.concept3d.com/?id=192#!m/15801" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-university" aria-hidden="true"></i><span class="label">Wean Hall 5125</span></a></li>
+          
+        
+          
+            <li><a href="" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-phone" aria-hidden="true"></i><span class="label">(412) 268-6032</span></a></li>
+          
+        
+          
+            <li><a href="mailto:dabneyg@andrew.cmu.edu" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
 </div>
 
-    
-          
+  
+  </div>
 
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Talks">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Talks
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>Here’s a selection of invited talks I’ve given recently about our research or about meta topics.
+Some are recorded <a href="">[<i class="fab fa-youtube"></i>]</a>.</p>
+
+<ul>
+  <li><em>(Some of) The New Science of Stress</em>: 
+At the 
+<a href="https://www.isri.cmu.edu/events/sssg.html">Software Research Seminar (SSSG)</a> at CMU;
+February 2020.
+<a href="https://cmustrudel.github.io/slides/sssg-stress.pdf">[<i class="fas fa-file-powerpoint"></i>]</a>
+<a href="https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22aea182e9-2682-49b2-aed7-ab280159b222%22">[<i class="fab fa-youtube"></i>]</a> (with CMU login)
+<!--  --></li>
+  <li><em>Sustaining Open Source Digital Infrastructure</em>: 
+Keynote talk at the 
+<a href="https://scaladays.org/2019/lausanne/schedule">Scala Days</a> Conference in Lausanne, Switzerland;
+June 2019.
+<a href="https://cmustrudel.github.io/slides/scala-days.pdf">[<i class="fas fa-file-powerpoint"></i>]</a>
+<a href="https://portal.klewel.com/watch/webcast/scala-days-2019/talk/33/">[<i class="fab fa-youtube"></i>]</a>
+<!--  --></li>
+  <li><em>Leveraging Signals to Build More Sustainable Open Source Communities</em>: 
+Keynote talk at the Google 
+<a href="http://margaretstorey.com/sddi/">Software Developer Diversity and Inclusion (SDDI) Workshop</a> 
+in San Francisco; June 2019.
+<a href="https://cmustrudel.github.io/slides/google-sddi.pdf">[<i class="fas fa-file-powerpoint"></i>]</a>
+<!--  --></li>
+  <li><em>Data Science for Software Engineering</em>: Tutorial at the<br />
+<a href="http://mbds.cs.iastate.edu/2019">Midwest Big Data Summer School</a> at Iowa State University
+in Ames, IA; May 2019.
+<a href="http://cmustrudel.github.io/slides/vasilescu-midwest.pdf">[<i class="fas fa-file-powerpoint"></i>]</a>
+<!--  --></li>
+  <li><em>Sustaining Open Source Digital Infrastructure</em>: 
+At University of Zurich, Switzerland; March 2019.
+<a href="https://cmustrudel.github.io/slides/zurich-sustainability.pdf">[<i class="fas fa-file-powerpoint"></i>]</a>
+<!--  --></li>
+  <li><em>CI/CD Pipeline Tools and Their Signals</em>: 
+At the 
+<a href="https://www.microsoft.com/en-us/research/event/continuous-deployment-workshop/">Continuous Deployment Workshop</a> 
+during the 
+<a href="https://www.microsoft.com/en-us/research/event/faculty-summit-2018/">Microsoft Faculty Summit</a>
+in Seattle; August 2018.
+<a href="https://cmustrudel.github.io/slides/msr-faculty-summit-workshop.pdf">[<i class="fas fa-file-powerpoint"></i>]</a>
+<!--  --></li>
+  <li><em>Signals in Social Coding Environments: What Do They Mean and How Much Can You Trust Them?</em>: 
+Keynote talk at the 
+<a href="http://www.sen-symposium.nl">Dutch National Software Engineering Symposium (SEN)</a> 
+in Amsterdam, The Netherlands; February 2018.
+<a href="https://cmustrudel.github.io/slides/badges-cwi.pdf">[<i class="fas fa-file-powerpoint"></i>]</a>
+<!--  --></li>
+  <li><em>Collaborative and Human Aspects of Software Engineering</em>: 
+Tutorial at the 
+<a href="https://ipa.win.tue.nl/?event=course-software-engineering-and-technology-2">IPA Course on Software Engineering and Technology</a> 
+in Eindhoven, The Netherlands; January 2018.
+<!--  --></li>
+  <li><em>Diversity in Open Source Software Teams: Aid or Barrier?</em>: 
+At the 
+<a href="https://events.ceu.edu/2017-05-25/gendered-creative-teams-workshop">Gendered Creative Teams Workshop</a> 
+at the Central European University in Budapest, Hungary; May 2017.
+<a href="https://cmustrudel.github.io/slides/budapest.pdf">[<i class="fas fa-file-powerpoint"></i>]</a>
+<!--  --></li>
+  <li><em>Lessons in Social Coding: Software Analytics in the Age of GitHub</em>: 
+At the 
+<a href="https://sse-ws.github.io/index.html">Social Software Engineering Workshop</a> 
+at ESEC/FSE 2016 in Seattle; Nov 2016.
+<a href="https://sse-ws.github.io/sse16bogdan.pdf">[<i class="fas fa-file-powerpoint"></i>]</a>
+<!--  --></li>
+  <li><em>Lessons in Social Coding: Software Analytics in the Age of GitHub</em>: 
+Job talk; 2016.
+<a href="https://cmustrudel.github.io/slides/jobtalk.pdf">[<i class="fas fa-file-powerpoint"></i>]</a>
+<!--  --></li>
+  <li><em>Of Teams and Automation: Lessons in Social Coding from GitHub</em>:
+At Microsoft Research in Redmond, WA; 2015.
+<a href="https://www.microsoft.com/en-us/research/video/of-teams-and-automation-lessons-in-social-coding-from-github/">[<i class="fab fa-youtube"></i>]</a>
+<a href="https://cmustrudel.github.io/slides/microsoft.pdf">[<i class="fas fa-file-powerpoint"></i>]</a>
+<!--  --></li>
+  <li><em>Social Aspects of Collaboration in Online Software Communities</em>:
+PhD thesis defense at Eindhoven University of Technology, The Netherlands; October 2014.
+<a href="http://youtu.be/-rh0IJxagHI">[<i class="fab fa-youtube"></i>]</a></li>
+</ul>
+
+<p>Besides these, my students and I regularly give talks at conferences to present our 
+research papers.
+You can find links to all the slide decks below each paper on the 
+<a href="https://cmustrudel.github.io/publications/" target="_blank">STRUDEL publications page</a>.
+<a href="https://twitter.com/sophiehsqq">Sophie</a>’s talk at ICSE 2019 in Montreal, presenting
+our ACM SIGSOFT Distinguished <a href="https://cmustrudel.github.io/papers/icse19social.pdf">Paper</a>, 
+is also recorded <a href="https://youtu.be/KDC2BhSRr5Q">[<i class="fab fa-youtube"></i>]</a>.</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
 
     </div>
-  </body>      
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <!-- 
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Contact:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+ -->
+
+<div class="page__footer-copyright">&copy; 2020 Bogdan Vasilescu. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
 </html>
