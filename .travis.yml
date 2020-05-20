@@ -15,18 +15,4 @@ notifications:
   email: false
 env:
   global:
-    secure: VHUQ6+Ic1xYi69E1TUw6poUj+D8Wg7g3dSItiu7rj3iK4WqRujvZRLK2jSYRNxKG0fifEdY23x2Kz9OeS7Uul3UUnaHIp8UC1++sbhDnn3/oZSx4Zv7+A+DOQ6Z6kUl3Q2wZ4HnKXs2ICZYQFYwSa99jIjGAYlrUGtQASosbETNAYtq5D3/NGw/XOot9F8M3/iIRHU8pe/7s+3gQiX7H1hFk0Cs5ZYSksDFwfgNgR2iTdBit6dqevMJgelbTgWrmCB0xF89tPp61dp9fEqZHUYRskYF+EH+Xw2GXfxHx+jWnd3+Q+uaagNbTnDBHY3SA2a7016COvNoUtSVDMazUS4dofTRxXGdCOB9sTpp47zCQpBbJh0yVyslYWhakfcYgj3IhWcHBaiTIb1RtvddywwQqKBp7mW0BdUGKcmKqvEpQUVSKqkR8zeWeNW5MwMp4+Os/fTSwO9Cg+OKmpDRDEdMSs5CSxXLgKguu2rjGPT9fuPw9tya9cis5WqEQh58SSQ+y+XpTRBBrawBaq1IbH1vPBYsO0SuVnx24XpDZ5n63AXuJQC/0L+etWv+RZlZOdtrEh0HE3KzXZYXJPkTNduDguQ7+w1pXwplwlLeiyhfCi6oMQGzyv3c4ESSooLk28FzcNWQJ3no8d6lvZRNF/AESjd8VGLMpErsxvkIG2I0=
-
-
-
-#language: ruby
-#cache: bundler
-#gemfile: docs/Gemfile
-#script:
-#  - bundle exec jekyll algolia --source docs --destination docs/_site --config docs/_config.yml
-#branches:
-#  only:
-#    # Change this to gh-pages if you're deploying using the gh-pages branch
-#    - master
-#rvm:
-# - 2.4
+  - secure: QyBDvCwRfWTeul3n4E6uefSxQahO19EF0nxB0u85yHIGhhIorhbYOOkvA7kKBL6HIV0WmBLPM19kAWx2FDOztWuTw5vFAWbOT665YL98gTN7KFaTA6tBwc7i2/TRJ/KCuvbzEtru14UF8WRV4yN3nZZG5xKYORJxABP6UftflEOIvpjDuMg8NlcnoXkGgv2FrnGdW7MyfG43BE32jaBAcaNSqAKwJ4VuJYsv3hoH2p3WnKXC1Smhke8/eDM07icBBPN+YSpOuvYdwN6NX6IVA7pPl2S3qOEX6crhf+a5T8mRyLeF3cuMAqSl6c14cdY67I4XIsNoiO19z6VO8ExEsw4+jkCFcQTCh5kwUEmcHzHMQR0f1dLJ+uVuouDRo0EbSuZrrN+NtXpdfEgwWD5wttGf7HptZQvcBXaavMYllP49J/rjC6CIYI95EE14cFJyiFS8OlSCRJcyAAQZWjfqMmyWSPEp69c20icQ49rMqh9XRWdlkx7bmQCbb7BkpDlojOArCMGBpjOPYH+fqmA3/NpB7VFCcxSxRwjiyBJq1Cc1iX760T+4tm5PELzpVHDdH4qrM6+NEH+depMcHBDSKCOl6EoPibd2eeqSi8R1RujBg5Ll+kmOEgI/5J68H2oY0A96enuW0aKoo+pfN6++1pbfYHKx0R97tqQz6+sqwGc=
