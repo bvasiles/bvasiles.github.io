@@ -33,6 +33,9 @@ and [list of publications](https://cmustrudel.github.io/publications/).
 
 #### Highlights
 
+- This [invited talk](https://youtu.be/y4cpIaN3tFc) at the 2020 State of the Source
+Summit.
+- This [podcast episode](https://podcast.sustainoss.org/40) on the Sustain podcast.
 - This [3-minute video overview](https://www.youtube.com/watch?v=BFarCOdKOaQ) of our
 data-driven approach to studying open-source teams.
 - This [infographic](https://cmustrudel.github.io/badges) summarizing a recent research 
