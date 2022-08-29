@@ -108,13 +108,13 @@ analytics:
 author:
   name             : "Bogdan Vasilescu"
   avatar           : "assets/images/bogdan-2019.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Computer Scientist, Assistant Professor at [CMU](http://www.cmu.edu/)"
+  bio              : "Computer Scientist, Associate Professor at [CMU](http://www.cmu.edu/)"
   location         : # ""
   email            :
   links:
-    - label: "Wean Hall 5115"
+    - label: "TCS Hall 326"
       icon: "fas fa-fw fa-university"
-      url: "https://map.concept3d.com/?id=192#!m/15801"
+      url: "https://map.concept3d.com/?id=192#!m/518615"
     - label: "(412) 268-1048"
       icon: "fas fa-fw fa-phone"
       url: ""
