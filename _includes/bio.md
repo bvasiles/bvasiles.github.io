@@ -1,4 +1,4 @@
-Hi there! I'm an Assistant Professor in [CMU](http://www.cmu.edu)'s 
+Hi there! I'm an Associate Professor in [CMU](http://www.cmu.edu)'s 
 [School of Computer Science](http://scs.cmu.edu) and a member of the 
 [Institute for Software Research](http://www.isri.cmu.edu/index.html).
 My students and I form the [Socio-Technical Research Using Data Excavation Lab 
