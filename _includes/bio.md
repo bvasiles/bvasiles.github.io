@@ -1,19 +1,19 @@
 Hi there! I'm an Associate Professor in [CMU](http://www.cmu.edu)'s 
 [School of Computer Science](http://scs.cmu.edu) and a member of the 
-[Institute for Software Research](http://www.isri.cmu.edu/index.html).
+[Software and Societal Systems Department](http://s3d.cmu.edu).
 My students and I form the [Socio-Technical Research Using Data Excavation Lab 
 (STRUDEL)](https://cmustrudel.github.io).
 
-I'm most active in the [software engineering research community](http://csrankings.org/#/fromyear/2016/toyear/2020/index?soft),
+I'm most active in the [software engineering research community](http://csrankings.org/#/fromyear/2016/toyear/2023/index?soft),
 where I have co-chaired the 
-[MSR 2020 Data Showcase](https://2020.msrconf.org/track/msr-2020-Data-showcase#Call-for-Papers),
+[MSR 2023 PC](https://conf.researchr.org/track/msr-2023/msr-2023-technical-papers),
 have been serving on program committees for the major software engineering venues (including
 [ICSE](https://2019.icse-conferences.org/committee/icse-2019-technical-papers-program-committee), 
-[FSE](https://esec-fse19.ut.ee/committees/research-papers/), and 
+[ESEC/FSE](https://esec-fse19.ut.ee/committees/research-papers/), and 
 [ASE](https://2019.ase-conferences.org/committee/ase-2019-papers-program-committee);
-thanks for the [Distinguished Reviewer Award](http://www.ase2018.com/?p=awards) at ASE 2018!),
-am an Associate Editor for the [ACM Transactions on Software Engineering and Methodology](https://dl.acm.org/journal/tosem/editorial-board#associate-editors),
-and am co-chairing the [SIGSOFT Initiative on Data-driven Introspection](https://www.sigsoft.org/annualrpt/2019annualreport.html),
+thanks for the [Distinguished Reviewer Award](http://www.ase2018.com/?p=awards) at ASE 2018 and ESEC/FSE 2021!),
+and am an Associate Editor for the [ACM Transactions on Software Engineering and Methodology](https://dl.acm.org/journal/tosem/editorial-board#associate-editors),
+<!-- and am co-chairing the [SIGSOFT Initiative on Data-driven Introspection](https://www.sigsoft.org/annualrpt/2019annualreport.html), -->
 among [others](/service/).
 
 On the internets I'm sometimes referred to as a *"[prominent female professor from 
@@ -78,3 +78,4 @@ and an engineer's degree in Systems and Computer Science from Romania
 ([webpage](http://www.upg-ploiesti.ro) in Romanian; thesis advisor: 
 [Gabriel R&#259;dulescu](http://ac.upg-ploiesti.ro/gradulescu/gradulescu.php)).
 
+See my <a href="bvasiles.github.io/cv.pdf" target="_blank">CV</a> for details.
