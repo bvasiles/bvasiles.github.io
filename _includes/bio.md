@@ -78,4 +78,4 @@ and an engineer's degree in Systems and Computer Science from Romania
 ([webpage](http://www.upg-ploiesti.ro) in Romanian; thesis advisor: 
 [Gabriel R&#259;dulescu](http://ac.upg-ploiesti.ro/gradulescu/gradulescu.php)).
 
-See my <a href="bvasiles.github.io/cv.pdf" target="_blank">CV</a> for details.
+See my <a href="cv.pdf" target="_blank">CV</a> for details.
